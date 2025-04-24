@@ -1,0 +1,88 @@
+{
+ "actions": [],
+ "autoname": "format:{documentop}",
+ "creation": "2025-03-14 10:22:08.602627",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "documentop",
+  "nombrep",
+  "apellidop",
+  "matricula",
+  "firma",
+  "efectores"
+ ],
+ "fields": [
+  {
+   "fieldname": "matricula",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Matricula",
+   "reqd": 1,
+   "set_only_once": 1
+  },
+  {
+   "fieldname": "firma",
+   "fieldtype": "Signature",
+   "label": "Firma",
+   "set_only_once": 1
+  },
+  {
+   "fieldname": "efectores",
+   "fieldtype": "Table",
+   "label": "Efectores",
+   "options": "Veterinario-Efector"
+  },
+  {
+   "fetch_from": "documentop.nombre",
+   "fieldname": "nombrep",
+   "fieldtype": "Data",
+   "is_virtual": 1,
+   "label": "Nombre"
+  },
+  {
+   "fetch_from": "documentop.apellido",
+   "fieldname": "apellidop",
+   "fieldtype": "Data",
+   "is_virtual": 1,
+   "label": "Apellido"
+  },
+  {
+   "fieldname": "documentop",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Documento",
+   "options": "Persona",
+   "reqd": 1,
+   "set_only_once": 1
+  }
+ ],
+ "hide_toolbar": 1,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-04-16 08:53:17.256415",
+ "modified_by": "Administrator",
+ "module": "Prueba",
+ "name": "Veterinario",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "documentop"
+}

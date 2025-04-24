@@ -1,0 +1,40 @@
+{
+ "app": "prueba",
+ "charts": [],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"Veterinarios\"}}]",
+ "creation": "2025-03-26 09:15:56.527608",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "customer",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Veterinarios",
+ "link_to": "Veterinario",
+ "link_type": "DocType",
+ "links": [],
+ "modified": "2025-03-28 08:58:32.330008",
+ "modified_by": "eli.feuli37@gmail.com",
+ "module": "Prueba",
+ "name": "Veterinarios",
+ "number_cards": [],
+ "owner": "eli.feuli37@gmail.com",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Creador"
+  }
+ ],
+ "sequence_id": 5.0,
+ "shortcuts": [],
+ "title": "Veterinarios",
+ "type": "Link"
+}

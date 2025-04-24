@@ -1,0 +1,43 @@
+{
+ "app": "prueba",
+ "charts": [],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"Animales Rescatados\"}}]",
+ "creation": "2025-03-27 08:22:48.117296",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "add",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Animales Rescatados",
+ "link_to": "Rescate",
+ "link_type": "DocType",
+ "links": [],
+ "modified": "2025-03-28 08:56:56.243178",
+ "modified_by": "eli.feuli37@gmail.com",
+ "module": "Prueba",
+ "name": "Animales Rescatados",
+ "number_cards": [],
+ "owner": "eli.feuli37@gmail.com",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Veterinario"
+  },
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Creador"
+  }
+ ],
+ "sequence_id": 3.0,
+ "shortcuts": [],
+ "title": "Animales Rescatados",
+ "type": "Link"
+}

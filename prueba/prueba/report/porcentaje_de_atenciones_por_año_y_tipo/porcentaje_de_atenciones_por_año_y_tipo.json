@@ -1,0 +1,35 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2025-04-11 08:46:17.120950",
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "letter_head": "Inform\u00e1tica Municipalidad de Rosario",
+ "letterhead": null,
+ "modified": "2025-04-23 11:37:08.472334",
+ "modified_by": "Administrator",
+ "module": "Prueba",
+ "name": "Porcentaje de atenciones por a\u00f1o y tipo",
+ "owner": "eli.feuli37@gmail.com",
+ "prepared_report": 0,
+ "query": "SELECT \r\n    CONCAT(m.a\u00f1o, ' - ', m.tipo) AS a\u00f1o_tipo,\r\n    m.cantidad_atenciones,\r\n    ROUND((m.cantidad_atenciones / t.total_atenciones) * 100, 2) AS porcentaje_atenciones_por_tipo\r\nFROM (\r\n    SELECT \r\n        CASE \r\n            WHEN a.egreso IS NULL THEN 'En proceso'\r\n            ELSE CAST(YEAR(a.egreso) AS CHAR)\r\n        END AS a\u00f1o,\r\n        a.tipo,\r\n        COUNT(*) AS cantidad_atenciones\r\n    FROM \r\n        tabAtencion AS a\r\n    INNER JOIN tabAnimal AS an ON a.parent = an.name\r\n    GROUP BY \r\n        CASE \r\n            WHEN a.egreso IS NULL THEN 'En proceso'\r\n            ELSE CAST(YEAR(a.egreso) AS CHAR)\r\n        END,\r\n        a.tipo\r\n) AS m\r\nINNER JOIN (\r\n    SELECT \r\n        CASE \r\n            WHEN egreso IS NULL THEN 'En proceso'\r\n            ELSE CAST(YEAR(egreso) AS CHAR)\r\n        END AS a\u00f1o,\r\n        COUNT(*) AS total_atenciones\r\n    FROM tabAtencion\r\n    GROUP BY \r\n        CASE \r\n            WHEN egreso IS NULL THEN 'En proceso'\r\n            ELSE CAST(YEAR(egreso) AS CHAR)\r\n        END\r\n) AS t ON m.a\u00f1o = t.a\u00f1o\r\nORDER BY \r\n    (m.a\u00f1o = 'En proceso') ASC,\r\n    m.a\u00f1o,\r\n    m.tipo;\r\n",
+ "ref_doctype": "Animal",
+ "report_name": "Porcentaje de atenciones por a\u00f1o y tipo",
+ "report_type": "Query Report",
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Veterinario"
+  },
+  {
+   "role": "Creador"
+  }
+ ],
+ "timeout": 0
+}

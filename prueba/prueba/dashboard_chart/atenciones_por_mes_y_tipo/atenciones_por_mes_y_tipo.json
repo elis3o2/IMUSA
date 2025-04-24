@@ -1,0 +1,38 @@
+{
+ "chart_name": "Atenciones por mes y tipo",
+ "chart_type": "Report",
+ "creation": "2025-04-10 10:59:35.842366",
+ "currency": "",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart",
+ "dynamic_filters_json": "{}",
+ "filters_json": "{}",
+ "group_by_type": "Count",
+ "idx": 0,
+ "is_public": 0,
+ "is_standard": 1,
+ "modified": "2025-04-23 11:44:28.645458",
+ "modified_by": "Administrator",
+ "module": "Prueba",
+ "name": "Atenciones por mes y tipo",
+ "number_of_groups": 0,
+ "owner": "eli.feuli37@gmail.com",
+ "report_name": "Porcentaje de atenciones de cada tipo por mes",
+ "roles": [
+  {
+   "role": "Veterinario"
+  }
+ ],
+ "time_interval": "Yearly",
+ "timeseries": 0,
+ "timespan": "Last Year",
+ "type": "Bar",
+ "use_report_chart": 0,
+ "x_field": "mes_tipo",
+ "y_axis": [
+  {
+   "color": "#ED6396",
+   "y_field": "cantidad"
+  }
+ ]
+}

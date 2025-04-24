@@ -1,0 +1,157 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "field:efector",
+ "creation": "2025-01-14 11:06:31.266007",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "efector_section",
+  "datos_efector_column",
+  "efector",
+  "direcci\u00f3n",
+  "ubicaci\u00f3n_column",
+  "latitud",
+  "longitud",
+  "coordenadas",
+  "distrito",
+  "vecinal",
+  "punto_x",
+  "punto_y",
+  "lineas_tup",
+  "barrio",
+  "fracci\u00f3n_censal",
+  "radio_censal",
+  "accesibilidad_column",
+  "tipo_efector"
+ ],
+ "fields": [
+  {
+   "fieldname": "efector_section",
+   "fieldtype": "Section Break",
+   "label": "Efector"
+  },
+  {
+   "fieldname": "datos_efector_column",
+   "fieldtype": "Column Break",
+   "label": "Datos Efector"
+  },
+  {
+   "fieldname": "efector",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Efector",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "direcci\u00f3n",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Direccion",
+   "reqd": 1
+  },
+  {
+   "fieldname": "ubicaci\u00f3n_column",
+   "fieldtype": "Column Break",
+   "label": "Ubicaci\u00f3n"
+  },
+  {
+   "fieldname": "latitud",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Latitud"
+  },
+  {
+   "fieldname": "longitud",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Longitud"
+  },
+  {
+   "fieldname": "coordenadas",
+   "fieldtype": "Data",
+   "label": "Coordenadas"
+  },
+  {
+   "fieldname": "distrito",
+   "fieldtype": "Link",
+   "label": "Distrito",
+   "options": "Distrito"
+  },
+  {
+   "fieldname": "vecinal",
+   "fieldtype": "Data",
+   "label": "Vecinal"
+  },
+  {
+   "fieldname": "punto_x",
+   "fieldtype": "Data",
+   "label": "Punto X"
+  },
+  {
+   "fieldname": "punto_y",
+   "fieldtype": "Data",
+   "label": "Punto Y"
+  },
+  {
+   "fieldname": "lineas_tup",
+   "fieldtype": "Long Text",
+   "label": "Lineas TUP"
+  },
+  {
+   "fieldname": "barrio",
+   "fieldtype": "Link",
+   "label": "Barrio",
+   "options": "Barrio"
+  },
+  {
+   "fieldname": "fracci\u00f3n_censal",
+   "fieldtype": "Data",
+   "label": "Fraccion Censal"
+  },
+  {
+   "fieldname": "radio_censal",
+   "fieldtype": "Data",
+   "label": "Radio Censal"
+  },
+  {
+   "fieldname": "accesibilidad_column",
+   "fieldtype": "Column Break",
+   "label": "Accesibilidad"
+  },
+  {
+   "fieldname": "tipo_efector",
+   "fieldtype": "Select",
+   "label": "Tipo de efector",
+   "options": "Centro de Salud\nHospital\nCentro Cultural\nInstituci\u00f3n Deportiva y Social\nVeterinaria\nVecinal\nDistrito\nEscuela\nBiblioteca\nCentro de Jubilados y Pensionados\nAsociaci\u00f3n Civil\nSUM\nM\u00f3vil IMUSA"
+  }
+ ],
+ "hide_toolbar": 1,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-04-08 11:50:24.869314",
+ "modified_by": "Administrator",
+ "module": "Prueba",
+ "name": "Efector",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

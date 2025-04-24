@@ -1,0 +1,46 @@
+{
+ "app": "prueba",
+ "charts": [],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"Mascotas\"}}]",
+ "creation": "2025-03-25 08:08:06.161929",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "heart",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Animales",
+ "link_to": "Animal",
+ "link_type": "DocType",
+ "links": [],
+ "modified": "2025-03-28 08:56:04.753159",
+ "modified_by": "eli.feuli37@gmail.com",
+ "module": "Prueba",
+ "name": "Animales",
+ "number_cards": [],
+ "owner": "eli.feuli37@gmail.com",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Veterinario"
+  },
+  {
+   "role": "Veterinario Administrador"
+  },
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Creador"
+  }
+ ],
+ "sequence_id": 2.0,
+ "shortcuts": [],
+ "title": "Animales",
+ "type": "Link"
+}

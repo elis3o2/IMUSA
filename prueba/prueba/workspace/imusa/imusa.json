@@ -1,0 +1,99 @@
+{
+ "app": "prueba",
+ "charts": [
+  {
+   "chart_name": "Atenciones por distrito y efector",
+   "label": "Atenciones por distrito y efector"
+  },
+  {
+   "chart_name": "Atenciones por especie y sexo",
+   "label": "Atenciones por especie y sexo"
+  },
+  {
+   "chart_name": "Atenciones por d\u00eda de la semana",
+   "label": "Atenciones por d\u00eda de la semana"
+  },
+  {
+   "chart_name": "Atenciones mensuales",
+   "label": "Atenciones mensuales"
+  },
+  {
+   "chart_name": "Atenciones por mes y tipo",
+   "label": "Atenciones por mes y tipo"
+  },
+  {
+   "chart_name": "Atenciones por a\u00f1o",
+   "label": "Atenciones por a\u00f1o"
+  },
+  {
+   "chart_name": "Atenciones por a\u00f1o y tipo",
+   "label": "Atenciones por a\u00f1o y tipo"
+  },
+  {
+   "chart_name": "Porcentaje mensual de atenciones por tipo",
+   "label": "Porcentaje mensual de atenciones por tipo"
+  },
+  {
+   "chart_name": "Porcentaje anual de atenciones por tipo",
+   "label": "Porcentaje anual de atenciones por tipo"
+  }
+ ],
+ "content": "[{\"id\":\"TSOP-SkZPt\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Atenciones\",\"col\":4}},{\"id\":\"IR3pq1MQ0w\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Animales nuevos\",\"col\":4}},{\"id\":\"qvPk6p87vn\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Atenciones animales rescatados\",\"col\":4}},{\"id\":\"YqXNBhBBeu\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Atenciones animales no rescatados\",\"col\":4}},{\"id\":\"RhR8GBpPXm\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Atenciones por distrito y efector\",\"col\":12}},{\"id\":\"bwmTIVmFuC\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Atenciones por especie y sexo\",\"col\":12}},{\"id\":\"L8g-2hVOXN\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Atenciones por d\u00eda de la semana\",\"col\":12}},{\"id\":\"SY80VeHdZ-\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Atenciones mensuales\",\"col\":12}},{\"id\":\"1pUngr3Vbr\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Atenciones por mes y tipo\",\"col\":12}},{\"id\":\"PYgzNrf6BW\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Atenciones por a\u00f1o\",\"col\":12}},{\"id\":\"7Nf_FXrKH3\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Atenciones por a\u00f1o y tipo\",\"col\":12}},{\"id\":\"xMumCQ3d6z\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Porcentaje mensual de atenciones por tipo\",\"col\":12}},{\"id\":\"0q7xJfIQro\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Porcentaje anual de atenciones por tipo\",\"col\":12}}]",
+ "creation": "2025-01-16 10:15:19.111060",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "add-round",
+ "idx": 15,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Imusa",
+ "link_type": "DocType",
+ "links": [],
+ "modified": "2025-04-11 09:19:09.237211",
+ "modified_by": "eli.feuli37@gmail.com",
+ "module": "Prueba",
+ "name": "Imusa",
+ "number_cards": [
+  {
+   "label": "Animales nuevos",
+   "number_card_name": "Animales nuevos"
+  },
+  {
+   "label": "Atenciones animales no rescatados",
+   "number_card_name": "Atenciones animales no rescatados"
+  },
+  {
+   "label": "Atenciones",
+   "number_card_name": "Atenciones"
+  },
+  {
+   "label": "Atenciones animales rescatados",
+   "number_card_name": "Atenciones animales rescatados"
+  }
+ ],
+ "owner": "eli.feuli37@gmail.com",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Veterinario"
+  },
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Administrador"
+  },
+  {
+   "role": "Veterinario Administrador"
+  }
+ ],
+ "sequence_id": 1.0,
+ "shortcuts": [],
+ "title": "Imusa",
+ "type": "Workspace"
+}

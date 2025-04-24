@@ -1,0 +1,38 @@
+{
+ "chart_name": "Atenciones por especie y sexo",
+ "chart_type": "Report",
+ "creation": "2025-04-09 11:00:19.720278",
+ "currency": "",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart",
+ "dynamic_filters_json": "{}",
+ "filters_json": "{}",
+ "group_by_type": "Count",
+ "idx": 8,
+ "is_public": 0,
+ "is_standard": 1,
+ "modified": "2025-04-23 11:44:48.836005",
+ "modified_by": "Administrator",
+ "module": "Prueba",
+ "name": "Atenciones por especie y sexo",
+ "number_of_groups": 0,
+ "owner": "eli.feuli37@gmail.com",
+ "report_name": "Atenciones por especie y sexo",
+ "roles": [
+  {
+   "role": "Veterinario"
+  }
+ ],
+ "time_interval": "Yearly",
+ "timeseries": 0,
+ "timespan": "Last Year",
+ "type": "Percentage",
+ "use_report_chart": 0,
+ "x_field": "especie_y_sexo",
+ "y_axis": [
+  {
+   "color": "#39E4A5",
+   "y_field": "cantidad_de_atenciones"
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "app": "prueba",
+ "charts": [],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"Medicamentos\"}}]",
+ "creation": "2025-01-21 09:12:17.456518",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "clipboard",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Medicamentos",
+ "link_to": "Medicamento",
+ "link_type": "DocType",
+ "links": [],
+ "modified": "2025-03-28 08:57:36.163666",
+ "modified_by": "eli.feuli37@gmail.com",
+ "module": "Prueba",
+ "name": "Medicamentos",
+ "number_cards": [],
+ "owner": "eli.feuli37@gmail.com",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ],
+ "sequence_id": 4.0,
+ "shortcuts": [],
+ "title": "Medicamentos",
+ "type": "Link"
+}

@@ -5,6 +5,23 @@ app_description = "castraciones"
 app_email = "prueba@gmail.com"
 app_license = "mit"
 
+
+override_whitelisted_methods = {
+    "frappe.desk.reportview.get": "prueba.overrides.custom_get",
+}
+
+# For type-checking
+export_python_type_annotations = True
+
+page_js = {"print" : "public/js/print.js"}
+# hooks.py
+doctype_js = {"User": "public/js/user.js"}
+
+doctype_list_js = {"User" : "public/js/user_list.js"}
+
+app_include_js = ["/assets/prueba/js/overrides.js"]
+
+
 # Apps
 # ------------------
 

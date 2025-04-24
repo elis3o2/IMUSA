@@ -1,0 +1,181 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-03-17 08:03:42.864893",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "tipo_entrada",
+  "persona_ingresante",
+  "ubicacion",
+  "adoptado",
+  "fecha_adopcion",
+  "adoptante",
+  "column_break_hnhe",
+  "animal",
+  "nombre",
+  "fecha_nacimiento",
+  "sexo",
+  "especie",
+  "raza",
+  "estado_castracion",
+  "tamano",
+  "color_pelaje",
+  "estado",
+  "fecha_fallecimiento"
+ ],
+ "fields": [
+  {
+   "fieldname": "tipo_entrada",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Tipo Entrada",
+   "options": "Policial\nMunicipal\nOtro",
+   "reqd": 1
+  },
+  {
+   "fieldname": "persona_ingresante",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Persona ingresante",
+   "options": "Persona",
+   "reqd": 1
+  },
+  {
+   "fieldname": "ubicacion",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Ubicaci\u00f3n actual",
+   "options": "Efector"
+  },
+  {
+   "default": "No",
+   "fieldname": "adoptado",
+   "fieldtype": "Select",
+   "label": "Adoptado",
+   "options": "Si\nNo",
+   "reqd": 1
+  },
+  {
+   "fieldname": "adoptante",
+   "fieldtype": "Link",
+   "label": "Adoptante",
+   "options": "Persona"
+  },
+  {
+   "fieldname": "column_break_hnhe",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "animal",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Animal",
+   "options": "Animal",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "animal.nombre",
+   "fieldname": "nombre",
+   "fieldtype": "Data",
+   "is_virtual": 1,
+   "label": "Nombre"
+  },
+  {
+   "fetch_from": "animal.fecha_nacimiento",
+   "fieldname": "fecha_nacimiento",
+   "fieldtype": "Date",
+   "is_virtual": 1,
+   "label": "Fecha Nacimiento"
+  },
+  {
+   "fetch_from": "animal.sexo",
+   "fieldname": "sexo",
+   "fieldtype": "Select",
+   "is_virtual": 1,
+   "label": "Sexo"
+  },
+  {
+   "fetch_from": "animal.especie",
+   "fieldname": "especie",
+   "fieldtype": "Data",
+   "is_virtual": 1,
+   "label": "Especie"
+  },
+  {
+   "fetch_from": "animal.raza",
+   "fieldname": "raza",
+   "fieldtype": "Data",
+   "is_virtual": 1,
+   "label": "Raza"
+  },
+  {
+   "fetch_from": "animal.estado_castracion",
+   "fieldname": "estado_castracion",
+   "fieldtype": "Select",
+   "is_virtual": 1,
+   "label": "Estado castraci\u00f3n"
+  },
+  {
+   "fetch_from": "animal.tamano",
+   "fieldname": "tamano",
+   "fieldtype": "Select",
+   "is_virtual": 1,
+   "label": "Tama\u00f1o"
+  },
+  {
+   "fetch_from": "animal.color_pelaje",
+   "fieldname": "color_pelaje",
+   "fieldtype": "Select",
+   "is_virtual": 1,
+   "label": "Color pelaje"
+  },
+  {
+   "fetch_from": "animal.estado",
+   "fieldname": "estado",
+   "fieldtype": "Select",
+   "is_virtual": 1,
+   "label": "Estado"
+  },
+  {
+   "fetch_from": "animal.fecha_fallecimiento",
+   "fieldname": "fecha_fallecimiento",
+   "fieldtype": "Date",
+   "is_virtual": 1,
+   "label": "Fecha fallecimiento"
+  },
+  {
+   "fieldname": "fecha_adopcion",
+   "fieldtype": "Date",
+   "label": "Fecha adopci\u00f3n"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-04-24 09:23:16.063687",
+ "modified_by": "Administrator",
+ "module": "Prueba",
+ "name": "Rescate",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "animal"
+}
