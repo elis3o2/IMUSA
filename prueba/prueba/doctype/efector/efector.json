@@ -125,14 +125,14 @@
    "fieldname": "tipo_efector",
    "fieldtype": "Select",
    "label": "Tipo de efector",
-   "options": "Centro de Salud\nHospital\nCentro Cultural\nInstituci\u00f3n Deportiva y Social\nVeterinaria\nVecinal\nDistrito\nEscuela\nBiblioteca\nCentro de Jubilados y Pensionados\nAsociaci\u00f3n Civil\nSUM\nM\u00f3vil IMUSA"
+   "options": "Centro de Salud\nHospital\nCentro Cultural\nInstituci\u00f3n Deportiva y Social\nVeterinaria\nVecinal\nDistrito\nEscuela\nBiblioteca\nCentro de Jubilados y Pensionados\nAsociaci\u00f3n Civil\nSUM\nM\u00f3vil IMUSA\nCanil"
   }
  ],
  "hide_toolbar": 1,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-04-08 11:50:24.869314",
- "modified_by": "Administrator",
+ "modified": "2025-04-24 11:31:46.139719",
+ "modified_by": "eli.feuli37@gmail.com",
  "module": "Prueba",
  "name": "Efector",
  "naming_rule": "By fieldname",
