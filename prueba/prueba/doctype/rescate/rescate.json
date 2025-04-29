@@ -2,6 +2,7 @@
  "actions": [],
  "allow_rename": 1,
  "creation": "2025-03-17 08:03:42.864893",
+ "default_view": "List",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
@@ -54,6 +55,8 @@
    "default": "No",
    "fieldname": "adoptado",
    "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Adoptado",
    "options": "Si\nNo",
    "reqd": 1
@@ -153,10 +156,11 @@
    "label": "Fecha adopci\u00f3n"
   }
  ],
+ "hide_toolbar": 1,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-04-24 09:23:16.063687",
- "modified_by": "Administrator",
+ "modified": "2025-04-29 10:10:25.210107",
+ "modified_by": "eli.feuli37@gmail.com",
  "module": "Prueba",
  "name": "Rescate",
  "owner": "Administrator",
@@ -174,6 +178,7 @@
    "write": 1
   }
  ],
+ "row_format": "Dynamic",
  "sort_field": "creation",
  "sort_order": "DESC",
  "states": [],

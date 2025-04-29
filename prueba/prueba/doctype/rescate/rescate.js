@@ -2,6 +2,14 @@
 // For license information, please see license.txt
 frappe.ui.form.on('Rescate', {
     
+    setup: function(frm) {
+        frm.set_query('ubicacion', function() {
+          return {
+            filters: {
+              tipo_efector: 'Canil'}
+            }
+        })
+    },
 
     refresh: function(frm) {
 		frm.toggle_display('adoptante', frm.doc.adoptado == 'Si');
@@ -12,6 +20,7 @@ frappe.ui.form.on('Rescate', {
             const hoy = frappe.datetime.get_today();
             frm.set_value('fecha_adopcion', hoy);
         }
+        frm.toggle_display('ubicacion', frm.doc.adoptado == 'No');
         completar_campos(frm);
     },
     
@@ -20,6 +29,14 @@ frappe.ui.form.on('Rescate', {
 		frm.toggle_reqd('adoptante', frm.doc.adoptado == 'Si');
 		frm.toggle_display('fecha_adopcion', frm.doc.adoptado == 'Si');
 		frm.toggle_reqd('fecha_adopcion', frm.doc.adoptado == 'Si');
+        frm.toggle_display('ubicacion', frm.doc.adoptado == 'No');
+        if(frm.doc.adoptado == 'Si'){
+            frm.set_value('ubicacion', null);
+        }
+        if (frm.doc.adoptado == 'No'){
+            frm.set_value('adoptante', null);
+            frm.set_value('fecha_adopcion', null);
+        }
 	},
 	
     validate: function(frm) {

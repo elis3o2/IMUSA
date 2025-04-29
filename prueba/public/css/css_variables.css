@@ -1,0 +1,20 @@
+:root,
+[data-theme="light"] {
+  --subtle-accent: var(--gray-400);
+  --subtle-fg: var(--orange-500);
+
+  /* Button Colors */
+  --btn-primary: var(--gray-900);
+  --btn-default-bg: var(--gray-100);
+  --btn-default-hover-bg: var(--orange-300);
+
+  --scrollbar-thumb-color: var(--orange-400);
+  --scrollbar-track-color: var(--orange-200);
+}
+[data-theme="dark"] {
+  --subtle-accent: var(--gray-700);
+}
+
+.grid-heading-row {
+  color: var(--black-600)
+}

@@ -7,8 +7,6 @@ from frappe.model.document import Document
 
 class Animal(Document):
 	# begin: auto-generated types
-	# ruff: noqa
-
 	# This code is auto-generated. Do not modify anything in this block.
 
 	from typing import TYPE_CHECKING
@@ -30,8 +28,6 @@ class Animal(Document):
 		raza: DF.Link
 		sexo: DF.Literal["Macho", "Hembra"]
 		tamano: DF.Literal["Mini", "Chico", "Mediano", "Grande", "Gigante"]
-	# ruff: noqa
 	# end: auto-generated types
-
 
 	pass

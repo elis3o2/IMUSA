@@ -39,6 +39,10 @@ frappe.utils.guess_style = function (text, default_style, _colour) {
             colour = "blue";
         }  else if (has_words(["Hembra"], text)) {
             colour = "pink";
+        }  else if (has_words(["Si"], text)) {
+            colour = "green";
+        }  else if (has_words(["No"], text)) {
+            colour = "red";
         }
 
     }  

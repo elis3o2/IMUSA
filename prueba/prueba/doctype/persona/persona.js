@@ -8,17 +8,40 @@ frappe.ui.form.on('Persona', {
             frm.set_df_property('buscar', 'hidden', 1);
         }
 
+        if (frm.doc.localidad == "Rosario") {
+            frm.set_df_property("direccion", "reqd", 1)
+        }
+
+        if (frm.doc.correo) {
+            permisos_correo(frm)
+        }
+
         frm.toggle_display('mapa', frm.doc.direccion)
 
     },
 
     onload: function(frm){
         
-        if (!frm.is_new()){
+        if (!frm.is_new() && frm.doc.direccion){
         
             show_dirreccion(frm)
-        
         }
+        if (frm.doc.localidad == "Rosario") {
+            frm.set_df_property("direccion", "reqd", 1)
+        }
+        if (frm.doc.correo) {
+            permisos_correo(frm)
+        }
+    },
+
+    localidad: function(frm){
+        if (frm.doc.localidad == "Rosario") {
+            frm.set_df_property("direccion", "reqd", 1)
+        }
+        else{ 
+            frm.set_df_property("direccion", "reqd", 0)
+        }
+
     },
 
     buscar: function(frm) {
@@ -261,4 +284,22 @@ function options_handler(frm){
         }
     })
 }
-
+/*
+A usuarios del sistema no se les puede cambiar el correo
+*/
+function permisos_correo(frm){
+    frappe.call({
+        method: "frappe.client.get_value",
+        args: {
+            doctype: "User",
+            filters: { name: frm.doc.correo },
+            fieldname: "name"
+        },
+        callback: function(r) {
+            if (r.message) {
+                frm.set_df_property("correo", "read_only", 1);
+            }
+        }
+    });
+    
+}

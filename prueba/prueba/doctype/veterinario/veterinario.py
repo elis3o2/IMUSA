@@ -7,8 +7,6 @@ from frappe.model.document import Document
 
 class Veterinario(Document):
 	# begin: auto-generated types
-	# ruff: noqa
-
 	# This code is auto-generated. Do not modify anything in this block.
 
 	from typing import TYPE_CHECKING
@@ -20,8 +18,6 @@ class Veterinario(Document):
 		documentop: DF.Link
 		efectores: DF.Table[VeterinarioEfector]
 		matricula: DF.Data
-	# ruff: noqa
 	# end: auto-generated types
-
 
 	pass

@@ -93,7 +93,6 @@ def insertar_rescate(animal: str, tipo_entrada: str, persona_ingresante: str):
         "tipo_entrada": tipo_entrada,
         "persona_ingresante": persona_ingresante,
     })
-    frappe.msgprint(str(doc))
     doc.insert()
 
 

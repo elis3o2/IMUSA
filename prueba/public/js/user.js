@@ -17,7 +17,8 @@ frappe.ui.form.on('User', {
             }
         });
 
-        if (frappe.user_roles.includes("Administrador") && frm.doc.name == frappe.session.user) {
+        if (frappe.user_roles.includes("System Manager") && frm.doc.name == frappe.session.user 
+            && !frappe.user_roles.includes("Creador") ) {
             frm.set_df_property('role_profiles', 'read_only', 1);  // Deshabilita la edición del campo
 		}
 
@@ -56,38 +57,10 @@ frappe.ui.form.on('User', {
 function vista(frm){
     if (!frappe.user_roles.includes("Creador")){
                     
-        frm.$wrapper.find(".comment-input-wrapper").hide(); // Si es una clase
-        frm.$wrapper.find(".role-editor").hide();
-        frm.$wrapper.find(".menu-btn-group").hide();
-        
-        frm.toggle_display('sb_allow_modules', false);
-        
-        frm.$wrapper.find('#awesomplete_list_5 li').filter(function() {
-            return $(this).text().trim() === "Crear: Perfil de Rol";
-        }).hide();
-        
-        frm.toggle_display('desk_settings_section', false); // Ocultar la sección de escritorio
-        frm.toggle_display('navigation_settings_section', false); // Ocultar la sección de navegación
-        
-        frm.toggle_display('list_settings_section', false); // Ocultar la sección de escritorio
-        
-        frm.toggle_display('form_settings_section', false); // Ocultar la sección de navegación
-        
-        frm.toggle_display('document_follow_notifications_section', false); // Ocultar la sección de escritorio
-        
-        frm.toggle_display('email_settings', false); // Ocultar la sección de navegación
-        
-        frm.toggle_display('workspace_section', false); // Ocultar la sección de escritorio
-        frm.toggle_display('app_section', false); // Ocultar la sección de navegación
+        frm.$wrapper.find(".btn.btn-default.ellipsis").remove();
+
         frm.toggle_display('sb3', false);
-        frm.toggle_display('third_party_authentication', false);
-        frm.toggle_display('api_access', false);
-        frm.$wrapper.find(".layout-side-section.right").hide();
-        frm.$wrapper.find(".btn.btn-default.ellipsis").hide();
-        frm.$wrapper.find(".text-muted.btn.btn-default.icon-btn").hide();
 
-        frm.$wrapper.find('#awesomplete_list_5[role="option"]').hide();
-
-        
+    
     }
 }

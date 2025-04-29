@@ -16,7 +16,8 @@ class Persona(Document):
 
 		apellido: DF.Data
 		correo: DF.Data | None
-		direccion: DF.Data
+		direccion: DF.Data | None
+		localidad: DF.Literal["Rosario", "Funes", "Otro"]
 		nombre: DF.Data
 		numero_documento: DF.Data
 		sexo: DF.Literal["M", "F"]

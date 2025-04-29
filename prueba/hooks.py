@@ -21,9 +21,19 @@ doctype_list_js = {"User" : "public/js/user_list.js"}
 
 app_include_js = ["/assets/prueba/js/overrides.js"]
 
+app_include_css = ["/assets/prueba/css/css_variables.css"]
 
-on_boot = "prueba.overrides.patches.queue_builder"
+permission_query_conditions = {
+    "User": "prueba.overrides.doctype.user.get_permission_query_conditions"
+}
 
+def override_queuebuilder():
+    import frappe.email.doctype.email_queue.email_queue
+    from prueba.overrides.doctype.queue_builder import CustomQueueBuilder
+    frappe.email.doctype.email_queue.email_queue.QueueBuilder = CustomQueueBuilder
+
+# Ejecutar el override al cargar el sistema
+override_queuebuilder()
 
 # Apps
 # ------------------

@@ -12,6 +12,7 @@
   "nombre",
   "apellido",
   "column_break_tbrg",
+  "localidad",
   "direccion",
   "telefono",
   "correo",
@@ -64,8 +65,7 @@
   {
    "fieldname": "direccion",
    "fieldtype": "Data",
-   "label": "Direcci\u00f3n",
-   "reqd": 1
+   "label": "Direcci\u00f3n"
   },
   {
    "fieldname": "telefono",
@@ -87,13 +87,20 @@
    "fieldtype": "Geolocation",
    "is_virtual": 1,
    "label": "Mapa"
+  },
+  {
+   "default": "Rosario",
+   "fieldname": "localidad",
+   "fieldtype": "Select",
+   "label": "Localidad",
+   "options": "Rosario\nFunes\nOtro"
   }
  ],
  "hide_toolbar": 1,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-04-09 11:20:20.059787",
- "modified_by": "Administrator",
+ "modified": "2025-04-29 09:46:37.548880",
+ "modified_by": "eli.feuli37@gmail.com",
  "module": "Prueba",
  "name": "Persona",
  "naming_rule": "Expression",
@@ -123,6 +130,7 @@
    "write": 1
   }
  ],
+ "row_format": "Dynamic",
  "search_fields": "nombre, apellido",
  "show_title_field_in_link": 1,
  "sort_field": "creation",
