@@ -5,7 +5,6 @@ def execute():
     print("Ejecutando el patch")
     
     fields_to_set_default_zero = [
-        "form_sidebar",
         "timeline",
         "dashboard",
         "search_bar",

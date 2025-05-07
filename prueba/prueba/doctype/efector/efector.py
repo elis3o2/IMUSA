@@ -7,8 +7,6 @@ from frappe.model.document import Document
 
 class Efector(Document):
 	# begin: auto-generated types
-	# ruff: noqa
-
 	# This code is auto-generated. Do not modify anything in this block.
 
 	from typing import TYPE_CHECKING
@@ -16,22 +14,9 @@ class Efector(Document):
 	if TYPE_CHECKING:
 		from frappe.types import DF
 
-		barrio: DF.Link | None
-		coordenadas: DF.Data | None
-		dirección: DF.Data
-		distrito: DF.Link | None
-		efector: DF.Data
-		fracción_censal: DF.Data | None
-		latitud: DF.Data | None
-		lineas_tup: DF.LongText | None
-		longitud: DF.Data | None
-		punto_x: DF.Data | None
-		punto_y: DF.Data | None
-		radio_censal: DF.Data | None
+		direccion: DF.Link | None
+		nombre: DF.Data | None
 		tipo_efector: DF.Literal["Centro de Salud", "Hospital", "Centro Cultural", "Instituci\u00f3n Deportiva y Social", "Veterinaria", "Vecinal", "Distrito", "Escuela", "Biblioteca", "Centro de Jubilados y Pensionados", "Asociaci\u00f3n Civil", "SUM", "M\u00f3vil IMUSA", "Canil"]
-		vecinal: DF.Data | None
-	# ruff: noqa
 	# end: auto-generated types
-
 
 	pass

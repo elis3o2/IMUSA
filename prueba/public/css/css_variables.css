@@ -13,6 +13,7 @@
 }
 [data-theme="dark"] {
   --subtle-accent: var(--gray-700);
+  --subtle-fg: var(--orange-700);
 }
 
 .grid-heading-row {

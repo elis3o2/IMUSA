@@ -157,9 +157,10 @@
   }
  ],
  "hide_toolbar": 1,
+ "in_create": 1,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-04-29 10:10:25.210107",
+ "modified": "2025-04-30 11:39:41.618530",
  "modified_by": "eli.feuli37@gmail.com",
  "module": "Prueba",
  "name": "Rescate",

@@ -14,7 +14,7 @@ IGNORE_TEST_RECORD_DEPENDENCIES = []  # eg. ["User"]
 
 class UnitTestEfector(UnitTestCase):
 	"""
-	Unit tests for Efector.
+	Unit tests for Efectores.
 	Use this class for testing individual functions and methods.
 	"""
 
@@ -23,7 +23,7 @@ class UnitTestEfector(UnitTestCase):
 
 class IntegrationTestEfector(IntegrationTestCase):
 	"""
-	Integration tests for Efector.
+	Integration tests for Efectores.
 	Use this class for testing interactions between multiple components.
 	"""
 

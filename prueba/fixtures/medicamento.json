@@ -1,0 +1,93 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Medicamento",
+  "modified": "2025-02-17 12:47:18.827950",
+  "name": "Acepromacina",
+  "nombre": "Acepromacina"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Medicamento",
+  "modified": "2025-02-17 12:47:34.898251",
+  "name": "Triancinolona",
+  "nombre": "Triancinolona"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Medicamento",
+  "modified": "2025-02-17 12:47:47.500429",
+  "name": "Atropina",
+  "nombre": "Atropina"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Medicamento",
+  "modified": "2025-02-17 12:48:46.941532",
+  "name": "Doxapram",
+  "nombre": "Doxapram"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Medicamento",
+  "modified": "2025-02-17 12:49:09.035905",
+  "name": "Ivermectina",
+  "nombre": "Ivermectina"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Medicamento",
+  "modified": "2025-02-17 12:49:51.856414",
+  "name": "Mezcla (keta-Diazep.) 2 + 1",
+  "nombre": "Mezcla (keta-Diazep.) 2 + 1"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Medicamento",
+  "modified": "2025-02-17 12:47:58.770720",
+  "name": "Dexametasona",
+  "nombre": "Dexametasona"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Medicamento",
+  "modified": "2025-02-17 12:50:03.348434",
+  "name": "Dipirona",
+  "nombre": "Dipirona"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Medicamento",
+  "modified": "2025-02-17 12:48:13.503810",
+  "name": "Diazepan",
+  "nombre": "Diazepan"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Medicamento",
+  "modified": "2025-02-17 12:49:23.147711",
+  "name": "Complejo Vit. B",
+  "nombre": "Complejo Vit. B"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Medicamento",
+  "modified": "2025-02-17 12:48:57.187594",
+  "name": "Coagulante",
+  "nombre": "Coagulante"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Medicamento",
+  "modified": "2025-02-17 12:48:34.282320",
+  "name": "Antibiótico (iny)",
+  "nombre": "Antibiótico (iny)"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Medicamento",
+  "modified": "2025-01-15 09:34:56.825327",
+  "name": "Ketamina",
+  "nombre": "Ketamina"
+ }
+]

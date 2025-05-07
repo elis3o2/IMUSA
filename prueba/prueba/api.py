@@ -33,9 +33,9 @@ def conversion(x:str, y:str):
 
 
 @frappe.whitelist()
-def get_direccion_data(idCalle:str, altura:str, bis:str):
+def get_direccion_data(idCalle:str, altura:str, bis:str, letra:str):
     
-    url =f'https://ws.rosario.gob.ar/ubicaciones/public/direccion?idCalle={idCalle}&altura={altura}&bis={bis}&letra='
+    url =f'https://ws.rosario.gob.ar/ubicaciones/public/direccion?idCalle={idCalle}&altura={altura}&bis={bis}&letra={letra}'
 
     response = requests.get(url)
     try:
@@ -44,11 +44,11 @@ def get_direccion_data(idCalle:str, altura:str, bis:str):
         return json.loads(response.text.strip())
 
 @frappe.whitelist()
-def insertar_direccion(idCalle: int, altura: int, bis:bool, feature:str, coord_x:float, coord_y:float):
+def insertar_direccion(idCalle: int, altura: int, bis:bool, letra:str ,feature:str, coord_x:float, coord_y:float):
     
     if (not frappe.db.exists("Direcciones", feature)):
 
-        respuesta = get_direccion_data(str(idCalle), str(altura), str(bis))
+        respuesta = get_direccion_data(str(idCalle), str(altura), str(bis), letra)
 
 
         if (not frappe.db.exists("Vecinal", respuesta['divsAdmins'][1]['valor'])):

@@ -7,8 +7,6 @@ from frappe.model.document import Document
 
 class Raza(Document):
 	# begin: auto-generated types
-	# ruff: noqa
-
 	# This code is auto-generated. Do not modify anything in this block.
 
 	from typing import TYPE_CHECKING
@@ -18,8 +16,6 @@ class Raza(Document):
 
 		nombre_especie: DF.Literal["Perro", "Gato"]
 		nombre_raza: DF.Data
-	# ruff: noqa
 	# end: auto-generated types
-
 
 	pass

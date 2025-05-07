@@ -44,6 +44,14 @@ frappe.ui.form.on('Animal', {
 		    frm.toggle_display('documentop', frm.doc.animal_rescatado == 'No' || frm.doc.documentop);
 		}
 
+        frm.set_query('raza', function() {
+            return {
+                filters: {
+                    nombre_especie: ['in', [null, frm.doc.especie]]
+                }
+            };
+        });
+
         frm.medi_cant_before = {}
         frm.medi_cant_now = {}
         get_Medicamentos_Atencion(frm);
