@@ -1,0 +1,1163 @@
+[
+ {
+  "direccion": "HUMBERTO PRIMERO 5301",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:17:46.890781",
+  "name": "Escuela N° 1027",
+  "nombre": "Escuela N° 1027",
+  "tipo_efector": "Escuela"
+ },
+ {
+  "direccion": "CANDIA DOMINGO 3040",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:17:46.923316",
+  "name": "CS Alicia Moreau de Justo",
+  "nombre": "CS Alicia Moreau de Justo",
+  "tipo_efector": "Centro de Salud"
+ },
+ {
+  "direccion": "AVELLANEDA NICOLAS 1402",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:17:46.934239",
+  "name": "Hospital Carrasco",
+  "nombre": "Hospital Carrasco",
+  "tipo_efector": "Centro de Salud"
+ },
+ {
+  "direccion": "NICARAGUA 1098",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:17:46.942249",
+  "name": "Vecinal Bicentenario",
+  "nombre": "Vecinal Bicentenario",
+  "tipo_efector": "Centro de Salud"
+ },
+ {
+  "direccion": "BIARRITZ 7571",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:17:46.952075",
+  "name": "Vecinal Sargento Cabral (Pte.Gallego)",
+  "nombre": "Vecinal Sargento Cabral (Pte.Gallego)",
+  "tipo_efector": "Vecinal"
+ },
+ {
+  "direccion": "CABRINI MADRE 2717 Letra A",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:17:46.959822",
+  "name": "Elena Bazet",
+  "nombre": "Elena Bazet",
+  "tipo_efector": "Centro de Salud"
+ },
+ {
+  "direccion": "MILLER GUILLERMO 1316 Letra A",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:17:46.969778",
+  "name": "Cooperativa Las Torres",
+  "nombre": "Cooperativa Las Torres",
+  "tipo_efector": "Asociación Civil"
+ },
+ {
+  "direccion": "PARAGUAY 4586 Letra A",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:17:46.977193",
+  "name": "CLUB INDALECIO G. THEILER",
+  "nombre": "CLUB INDALECIO G. THEILER",
+  "tipo_efector": "Institución Deportiva y Social"
+ },
+ {
+  "direccion": "SAN LUIS 2020",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:17:46.985062",
+  "name": "Cemar",
+  "nombre": "Cemar",
+  "tipo_efector": "Hospital"
+ },
+ {
+  "direccion": "BRAILLE LUIS 1205",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:17:46.995755",
+  "name": "Vec. La Florida",
+  "nombre": "Vec. La Florida",
+  "tipo_efector": "Centro de Salud"
+ },
+ {
+  "direccion": "CASAS CASIANO 970",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:17:47.014219",
+  "name": "CS Casiano Casas",
+  "nombre": "CS Casiano Casas",
+  "tipo_efector": "Centro de Salud"
+ },
+ {
+  "direccion": "JUSTO JUAN B 2083",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:17:47.020454",
+  "name": "CS Juan B. Justo",
+  "nombre": "CS Juan B. Justo",
+  "tipo_efector": "Centro de Salud"
+ },
+ {
+  "direccion": "INGENIEROS JOSE 8590",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:17:47.028797",
+  "name": "Ceferino Namuncurá",
+  "nombre": "Ceferino Namuncurá",
+  "tipo_efector": "Centro de Salud"
+ },
+ {
+  "direccion": "FRAGA CNEL. ROSENDO MARIA 1093 Bis",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:17:47.034954",
+  "name": "Juana Azurduy",
+  "nombre": "Juana Azurduy",
+  "tipo_efector": "Centro de Salud"
+ },
+ {
+  "direccion": "1739 7691",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:17:47.044606",
+  "name": "Santa Lucía",
+  "nombre": "Santa Lucía",
+  "tipo_efector": "Centro de Salud"
+ },
+ {
+  "direccion": "MONTE FLORES 6983",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:17:47.050470",
+  "name": "Las Flores",
+  "nombre": "Las Flores",
+  "tipo_efector": "Centro de Salud"
+ },
+ {
+  "direccion": "AMENABAR JOSE DE 2502",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:17:47.059498",
+  "name": "Itati",
+  "nombre": "Itati",
+  "tipo_efector": "Centro de Salud"
+ },
+ {
+  "direccion": "AYOLAS JUAN DE 270",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:17:47.065698",
+  "name": "Luis Pasteur",
+  "nombre": "Luis Pasteur",
+  "tipo_efector": "Centro de Salud"
+ },
+ {
+  "direccion": "MAZA JUAN AGUSTIN 3880 (ex CORRIENTES)",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:17:47.074507",
+  "name": "Vec. Domingo Matheu",
+  "nombre": "Vec. Domingo Matheu",
+  "tipo_efector": "Centro de Salud"
+ },
+ {
+  "direccion": "SANCHEZ DE THOMPSON MARIQUITA 9 Bis",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:17:47.081615",
+  "name": "Rubén Naranjo",
+  "nombre": "Rubén Naranjo",
+  "tipo_efector": "Centro de Salud"
+ },
+ {
+  "direccion": "AYACUCHO BATALLA DE 6300",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.382255",
+  "name": "Sur",
+  "nombre": "Sur",
+  "tipo_efector": "Centro de Salud"
+ },
+ {
+  "direccion": "COLOMBRES JOSE E 923",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.395163",
+  "name": "Dr Julio Maiztegui",
+  "nombre": "Dr Julio Maiztegui",
+  "tipo_efector": "Centro de Salud"
+ },
+ {
+  "direccion": "SORRENTO 6900 (ex MARCOS DE AVELLANEDA)",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.407148",
+  "name": "Tío Rolo",
+  "nombre": "Tío Rolo",
+  "tipo_efector": "Centro de Salud"
+ },
+ {
+  "direccion": "CASTELLANOS AARON 3498",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.418816",
+  "name": "Mazza",
+  "nombre": "Mazza",
+  "tipo_efector": "Centro de Salud"
+ },
+ {
+  "direccion": "OCAMPO 1498",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.433554",
+  "name": "ILAR",
+  "nombre": "ILAR",
+  "tipo_efector": "Hospital"
+ },
+ {
+  "direccion": "SAN LUIS 2020",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.449556",
+  "name": "Maternidad Martin",
+  "nombre": "Maternidad Martin",
+  "tipo_efector": "Centro de Salud"
+ },
+ {
+  "direccion": "CORDOBA 3650",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.459354",
+  "name": "Casa LGBTIQ+",
+  "nombre": "Casa LGBTIQ+",
+  "tipo_efector": "Centro Cultural"
+ },
+ {
+  "direccion": "FUNES DEAN GREGORIO 1350",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.473528",
+  "name": "Club Hilarión",
+  "nombre": "Club Hilarión",
+  "tipo_efector": "Institución Deportiva y Social"
+ },
+ {
+  "direccion": "RIOJA 814",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.481319",
+  "name": "Compañía de Perros y Gatos",
+  "nombre": "Compañía de Perros y Gatos",
+  "tipo_efector": "Veterinaria"
+ },
+ {
+  "direccion": "FRANCIA 1940",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.493117",
+  "name": "IMUSA",
+  "nombre": "IMUSA",
+  "tipo_efector": "Veterinaria"
+ },
+ {
+  "direccion": "PASO JUAN JOSE 5490",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.500886",
+  "name": "Anexo Vecinal Empalme",
+  "nombre": "Anexo Vecinal Empalme",
+  "tipo_efector": "Vecinal"
+ },
+ {
+  "direccion": "PROVINCIAS UNIDAS 150 Bis",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.514207",
+  "name": "Distrito Noroeste",
+  "nombre": "Distrito Noroeste",
+  "tipo_efector": "Distrito"
+ },
+ {
+  "direccion": "TUELLA PEDRO 952 Bis",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.526510",
+  "name": "Club Náutico Sportivo Avellaneda",
+  "nombre": "Club Náutico Sportivo Avellaneda",
+  "tipo_efector": "Institución Deportiva y Social"
+ },
+ {
+  "direccion": "BLANQUI ANDRES 2120",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.535254",
+  "name": "Club Residentes Parquefield",
+  "nombre": "Club Residentes Parquefield",
+  "tipo_efector": "Institución Deportiva y Social"
+ },
+ {
+  "direccion": "BOEDO MARIANO 2330",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.544120",
+  "name": "Club Atlético El Torito",
+  "nombre": "Club Atlético El Torito",
+  "tipo_efector": "Institución Deportiva y Social"
+ },
+ {
+  "direccion": "SUPERI COMANDANTE JOSE 2208",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.552357",
+  "name": "Centro Recreativo La Esperanza",
+  "nombre": "Centro Recreativo La Esperanza",
+  "tipo_efector": "Institución Deportiva y Social"
+ },
+ {
+  "direccion": "SABIN ALBERT 1183 Bis",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.560317",
+  "name": "Vecinal Lisandro de la Torre",
+  "nombre": "Vecinal Lisandro de la Torre",
+  "tipo_efector": "Vecinal"
+ },
+ {
+  "direccion": "PALACIOS HECTOR 3575",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.568995",
+  "name": "Vecinal Fontanarrosa",
+  "nombre": "Vecinal Fontanarrosa",
+  "tipo_efector": "Vecinal"
+ },
+ {
+  "direccion": "GIACHINO PEDRO EDGARDO 4310",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.578526",
+  "name": "Vecinal 23 De Febrero",
+  "nombre": "Vecinal 23 De Febrero",
+  "tipo_efector": "Vecinal"
+ },
+ {
+  "direccion": "PERON PTE. JUAN DOMINGO 4602",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.588381",
+  "name": "Centro Municipal de Distrito Oeste \"Felipe Moré\"",
+  "nombre": "Centro Municipal de Distrito Oeste \"Felipe Moré\"",
+  "tipo_efector": "Distrito"
+ },
+ {
+  "direccion": "CALLAO 4400 (ex LAVALLE)",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.596448",
+  "name": "Casa Pueblo Barrio Alvear",
+  "nombre": "Casa Pueblo Barrio Alvear",
+  "tipo_efector": "Asociación Civil"
+ },
+ {
+  "direccion": "CORRIENTES 6100",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.606443",
+  "name": "Club Atlético Libertador General San Martín",
+  "nombre": "Club Atlético Libertador General San Martín",
+  "tipo_efector": "Institución Deportiva y Social"
+ },
+ {
+  "direccion": "PIAMONTE 3283",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.613165",
+  "name": "Vecinal Piamonte",
+  "nombre": "Vecinal Piamonte",
+  "tipo_efector": "Vecinal"
+ },
+ {
+  "direccion": "NUESTRA SRA DEL ROSARIO 352",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.621747",
+  "name": "Balneario Saladillo",
+  "nombre": "Balneario Saladillo",
+  "tipo_efector": "Institución Deportiva y Social"
+ },
+ {
+  "direccion": "SARMIENTO DOMINGO FAUSTINO 3998",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.629466",
+  "name": "Club Social Olímpico",
+  "nombre": "Club Social Olímpico",
+  "tipo_efector": "Institución Deportiva y Social"
+ },
+ {
+  "direccion": "RIVA FRANCISCO 1150",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.641111",
+  "name": "Club Atlético Olímpico",
+  "nombre": "Club Atlético Olímpico",
+  "tipo_efector": "Institución Deportiva y Social"
+ },
+ {
+  "direccion": "URIBURU PTE. JOSE EVARISTO 637",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.649078",
+  "name": "Centro Municipal de Distrito Sur \"Rosa Ziperovich\"",
+  "nombre": "Centro Municipal de Distrito Sur \"Rosa Ziperovich\"",
+  "tipo_efector": "Distrito"
+ },
+ {
+  "direccion": "SAN MARTIN GRAL. JOSE 3492",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.660215",
+  "name": "Rotary Club Rosario Sud",
+  "nombre": "Rotary Club Rosario Sud",
+  "tipo_efector": "Institución Deportiva y Social"
+ },
+ {
+  "direccion": "BATLLE GRAL. LORENZO 4400",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.669650",
+  "name": "Subsede Cristalería - Club Atlético Rosario Central",
+  "nombre": "Subsede Cristalería - Club Atlético Rosario Central",
+  "tipo_efector": "Institución Deportiva y Social"
+ },
+ {
+  "direccion": "MENA JUAN DE DIOS 2200",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.678933",
+  "name": "CS 1º de Mayo",
+  "nombre": "CS 1º de Mayo",
+  "tipo_efector": "Centro de Salud"
+ },
+ {
+  "direccion": "SUINDA 980",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.688358",
+  "name": "José Ugarte",
+  "nombre": "José Ugarte",
+  "tipo_efector": "Centro de Salud"
+ },
+ {
+  "direccion": "AGNETA TTE. ALFREDO 1439",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.696783",
+  "name": "Jean Henry Dunant",
+  "nombre": "Jean Henry Dunant",
+  "tipo_efector": "Centro de Salud"
+ },
+ {
+  "direccion": "COCHABAMBA 5103",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.706133",
+  "name": "Dr. Esteban Maradona",
+  "nombre": "Dr. Esteban Maradona",
+  "tipo_efector": "Centro de Salud"
+ },
+ {
+  "direccion": "ROUILLON ALFREDO 2095",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.713231",
+  "name": "Eva Duarte",
+  "nombre": "Eva Duarte",
+  "tipo_efector": "Centro de Salud"
+ },
+ {
+  "direccion": "FRAGA CNEL. ROSENDO MARIA 2308",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.722331",
+  "name": "Vec. Juan Pablo II",
+  "nombre": "Vec. Juan Pablo II",
+  "tipo_efector": "Vecinal"
+ },
+ {
+  "direccion": "RIVAROLA DR. RODOLFO 7501",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.730347",
+  "name": "Sta. María Josefa Rossello",
+  "nombre": "Sta. María Josefa Rossello",
+  "tipo_efector": "Centro de Salud"
+ },
+ {
+  "direccion": "SEGUI JUAN FRANCISCO 5305",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.740963",
+  "name": "Mauricio Casals",
+  "nombre": "Mauricio Casals",
+  "tipo_efector": "Centro de Salud"
+ },
+ {
+  "direccion": "SEGUI JUAN FRANCISCO 6550",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.748994",
+  "name": "Luchemos por la Vida",
+  "nombre": "Luchemos por la Vida",
+  "tipo_efector": "Centro de Salud"
+ },
+ {
+  "direccion": "CASTELLANOS AARON 3935",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.759253",
+  "name": "San Marcelino Champagnat",
+  "nombre": "San Marcelino Champagnat",
+  "tipo_efector": "Centro de Salud"
+ },
+ {
+  "direccion": "LAMADRID GREGORIO ARAOZ D 3307",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.766295",
+  "name": "C.S. Barrio Plata",
+  "nombre": "C.S. Barrio Plata",
+  "tipo_efector": "Centro de Salud"
+ },
+ {
+  "direccion": "BOLONIA 5350",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.776015",
+  "name": "Vec. Parque Sur",
+  "nombre": "Vec. Parque Sur",
+  "tipo_efector": "Vecinal"
+ },
+ {
+  "direccion": "OCAMPO 5779",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.786100",
+  "name": "Vec. Villa Urquiza",
+  "nombre": "Vec. Villa Urquiza",
+  "tipo_efector": "Vecinal"
+ },
+ {
+  "direccion": "PIEDRAS 1469",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.795915",
+  "name": "Vec. San Martín A",
+  "nombre": "Vec. San Martín A",
+  "tipo_efector": "Vecinal"
+ },
+ {
+  "direccion": "PUNTA DEL INDIO 7660",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.805963",
+  "name": "San Vicente de Paul",
+  "nombre": "San Vicente de Paul",
+  "tipo_efector": "Centro de Salud"
+ },
+ {
+  "direccion": "MARGIS JOSE 5115",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.814025",
+  "name": "20 de Junio",
+  "nombre": "20 de Junio",
+  "tipo_efector": "Centro de Salud"
+ },
+ {
+  "direccion": "AVELLANEDA NICOLAS 5625",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.824951",
+  "name": "El Gaucho",
+  "nombre": "El Gaucho",
+  "tipo_efector": "Centro de Salud"
+ },
+ {
+  "direccion": "KHANTUTA 1832",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.832031",
+  "name": "Pocho Lepratti",
+  "nombre": "Pocho Lepratti",
+  "tipo_efector": "Centro de Salud"
+ },
+ {
+  "direccion": "MANGRULLO EL 5150",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.840236",
+  "name": "El Mangrullo",
+  "nombre": "El Mangrullo",
+  "tipo_efector": "Centro de Salud"
+ },
+ {
+  "direccion": "TAREGUEC 4320",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.846811",
+  "name": "Toba",
+  "nombre": "Toba",
+  "tipo_efector": "Centro de Salud"
+ },
+ {
+  "direccion": "TAREGUEC 4355",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.856440",
+  "name": "Anexo del Toba",
+  "nombre": "Anexo del Toba",
+  "tipo_efector": "Centro de Salud"
+ },
+ {
+  "direccion": "DELIOT V 5323",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.864818",
+  "name": "Vecinal Julio A Roca",
+  "nombre": "Vecinal Julio A Roca",
+  "tipo_efector": "Centro de Salud"
+ },
+ {
+  "direccion": "SALVAT 2421",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.876386",
+  "name": "Ena Richiger",
+  "nombre": "Ena Richiger",
+  "tipo_efector": "Centro de Salud"
+ },
+ {
+  "direccion": "CISNERO MARIO ANTONIO 5100",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.884581",
+  "name": "Hermes Binner",
+  "nombre": "Hermes Binner",
+  "tipo_efector": "Centro de Salud"
+ },
+ {
+  "direccion": "PELLEGRINI CARLOS 3205",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.894913",
+  "name": "HECA",
+  "nombre": "HECA",
+  "tipo_efector": "Hospital"
+ },
+ {
+  "direccion": "VIRASORO GRAL. BENJAMIN 1855",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.903406",
+  "name": "Vilela",
+  "nombre": "Vilela",
+  "tipo_efector": "Hospital"
+ },
+ {
+  "direccion": "PUCCIO JOSE N 575",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.912320",
+  "name": "Hospital Alberdi",
+  "nombre": "Hospital Alberdi",
+  "tipo_efector": "Hospital"
+ },
+ {
+  "direccion": "LAPRIDA FRANCISCO NARCISO 5381",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.919799",
+  "name": "Hospital Roque Sáenz Peña",
+  "nombre": "Hospital Roque Sáenz Peña",
+  "tipo_efector": "Hospital"
+ },
+ {
+  "direccion": "ITALIA 2941",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.929925",
+  "name": "Club Atlético Belgrano",
+  "nombre": "Club Atlético Belgrano",
+  "tipo_efector": "Institución Deportiva y Social"
+ },
+ {
+  "direccion": "CAFFERATA JUAN MANUEL 1477",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.944417",
+  "name": "Club Social y Deportivo Cóndor",
+  "nombre": "Club Social y Deportivo Cóndor",
+  "tipo_efector": "Institución Deportiva y Social"
+ },
+ {
+  "direccion": "RIOBAMBA 2970",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.954368",
+  "name": "Club Social y Deportivo Nueva Aurora",
+  "nombre": "Club Social y Deportivo Nueva Aurora",
+  "tipo_efector": "Institución Deportiva y Social"
+ },
+ {
+  "direccion": "ESPAÑA 2898",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.962786",
+  "name": "Vecinal Acera",
+  "nombre": "Vecinal Acera",
+  "tipo_efector": "Vecinal"
+ },
+ {
+  "direccion": "PARANA 1346",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.970772",
+  "name": "Vecinal La República",
+  "nombre": "Vecinal La República",
+  "tipo_efector": "Vecinal"
+ },
+ {
+  "direccion": "TALAMPAYA 1940 Bis",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.978243",
+  "name": "Vecinal Hostal del Sol",
+  "nombre": "Vecinal Hostal del Sol",
+  "tipo_efector": "Vecinal"
+ },
+ {
+  "direccion": "TUCUMAN 5650",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.986552",
+  "name": "Club Atlético Tucumán",
+  "nombre": "Club Atlético Tucumán",
+  "tipo_efector": "Institución Deportiva y Social"
+ },
+ {
+  "direccion": "SUINDA 850",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:16.994535",
+  "name": "Estadio Municipal de Hockey",
+  "nombre": "Estadio Municipal de Hockey",
+  "tipo_efector": "Institución Deportiva y Social"
+ },
+ {
+  "direccion": "GENOVA 6113",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:17.003256",
+  "name": "Móvil Biblioteca Empalme Norte",
+  "nombre": "Móvil Biblioteca Empalme Norte",
+  "tipo_efector": "Biblioteca"
+ },
+ {
+  "direccion": "ZUVIRIA 6520",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:17.011344",
+  "name": "Vecinal Belgrano",
+  "nombre": "Vecinal Belgrano",
+  "tipo_efector": "Vecinal"
+ },
+ {
+  "direccion": "DERQUI SANTIAGO 7602",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:17.020188",
+  "name": "Vecinal María Duboe",
+  "nombre": "Vecinal María Duboe",
+  "tipo_efector": "Vecinal"
+ },
+ {
+  "direccion": "O HIGGINS GRAL. BERNARDO 8959",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:17.028126",
+  "name": "Vecinal Fisherton R",
+  "nombre": "Vecinal Fisherton R",
+  "tipo_efector": "Vecinal"
+ },
+ {
+  "direccion": "MARADONA JOSE IGNACIO 953 Bis",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:17.036533",
+  "name": "Vecinal Stella Maris",
+  "nombre": "Vecinal Stella Maris",
+  "tipo_efector": "Vecinal"
+ },
+ {
+  "direccion": "AYALA GAUNA VELMIRO 7951",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:17.043920",
+  "name": "Vecinal 7 de Septiembre",
+  "nombre": "Vecinal 7 de Septiembre",
+  "tipo_efector": "Vecinal"
+ },
+ {
+  "direccion": "SORRENTO 1293",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:17.052189",
+  "name": "Vecinal Parque Casas",
+  "nombre": "Vecinal Parque Casas",
+  "tipo_efector": "Vecinal"
+ },
+ {
+  "direccion": "AGRELO DR. PEDRO JOSE 2298",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:17.060132",
+  "name": "Club Atlético Sportivo Federal",
+  "nombre": "Club Atlético Sportivo Federal",
+  "tipo_efector": "Institución Deportiva y Social"
+ },
+ {
+  "direccion": "LARRECHEA PEDRO T DE 775",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:17.068188",
+  "name": "Club Leña y Leña",
+  "nombre": "Club Leña y Leña",
+  "tipo_efector": "Institución Deportiva y Social"
+ },
+ {
+  "direccion": "DARREGUEIRA JOSE 950",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:17.077237",
+  "name": "Maciel Bochín Club",
+  "nombre": "Maciel Bochín Club",
+  "tipo_efector": "Institución Deportiva y Social"
+ },
+ {
+  "direccion": "PLUMERILLO EL 259",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:17.087274",
+  "name": "Sarmiento Bochín Club",
+  "nombre": "Sarmiento Bochín Club",
+  "tipo_efector": "Institución Deportiva y Social"
+ },
+ {
+  "direccion": "BOUCHARD HIPOLITO 2829",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:17.095896",
+  "name": "Vecinal Nuevo Alberdi",
+  "nombre": "Vecinal Nuevo Alberdi",
+  "tipo_efector": "Vecinal"
+ },
+ {
+  "direccion": "SALVAT 2669",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:17.103513",
+  "name": "Vecinal Barrio Olímpico",
+  "nombre": "Vecinal Barrio Olímpico",
+  "tipo_efector": "Vecinal"
+ },
+ {
+  "direccion": "MONT CENIS 3959",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:17.111316",
+  "name": "Vecinal Florida Norte",
+  "nombre": "Vecinal Florida Norte",
+  "tipo_efector": "Vecinal"
+ },
+ {
+  "direccion": "ALVAREZ THOMAS IGNACIO 3530 (ex MAZZINI)",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:17.118769",
+  "name": "Vecinal Francisco Lai",
+  "nombre": "Vecinal Francisco Lai",
+  "tipo_efector": "Vecinal"
+ },
+ {
+  "direccion": "DON ORIONE 545",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:17.125966",
+  "name": "Vecinal Las Malvinas",
+  "nombre": "Vecinal Las Malvinas",
+  "tipo_efector": "Vecinal"
+ },
+ {
+  "direccion": "GODOY CRUZ TOMAS 1585",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:17.133391",
+  "name": "Barrio Cerámica",
+  "nombre": "Barrio Cerámica",
+  "tipo_efector": "Vecinal"
+ },
+ {
+  "direccion": "IRURTIA ROGELIO 7540",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:17.141833",
+  "name": "Centro De Jubilados Y Pensionados Amanecer",
+  "nombre": "Centro De Jubilados Y Pensionados Amanecer",
+  "tipo_efector": "Centro de Jubilados y Pensionados"
+ },
+ {
+  "direccion": "RUEDA MIGUEL 3379",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:17.149568",
+  "name": "Club Once Unidos",
+  "nombre": "Club Once Unidos",
+  "tipo_efector": "Institución Deportiva y Social"
+ },
+ {
+  "direccion": "LARREA JUAN 2021",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:17.158927",
+  "name": "Asociación Civil Corazón de Luz",
+  "nombre": "Asociación Civil Corazón de Luz",
+  "tipo_efector": "Asociación Civil"
+ },
+ {
+  "direccion": "COCHABAMBA 4449",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:17.165676",
+  "name": "Club Social y Deportivo Defensores de Lavalle",
+  "nombre": "Club Social y Deportivo Defensores de Lavalle",
+  "tipo_efector": "Institución Deportiva y Social"
+ },
+ {
+  "direccion": "1814 3923",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:17.174018",
+  "name": "Sum Unidos por la Igualdad",
+  "nombre": "Sum Unidos por la Igualdad",
+  "tipo_efector": "SUM"
+ },
+ {
+  "direccion": "CASTELLANOS AARON 3665",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:17.180439",
+  "name": "Vecinal Barrio Alvear",
+  "nombre": "Vecinal Barrio Alvear",
+  "tipo_efector": "Vecinal"
+ },
+ {
+  "direccion": "KHANTUTA 1396",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:17.188778",
+  "name": "Vecinal Las Flores Este",
+  "nombre": "Vecinal Las Flores Este",
+  "tipo_efector": "Vecinal"
+ },
+ {
+  "direccion": "VIOLETA 1780",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:17.196749",
+  "name": "Centro de Emprendedores Barrio Las Flores",
+  "nombre": "Centro de Emprendedores Barrio Las Flores",
+  "tipo_efector": "Centro Cultural"
+ },
+ {
+  "direccion": "BOLIVAR SIMON 3157",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:17.218502",
+  "name": "Club Carlos Casado",
+  "nombre": "Club Carlos Casado",
+  "tipo_efector": "Institución Deportiva y Social"
+ },
+ {
+  "direccion": "URIBURU PTE. JOSE EVARISTO 3865",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:17.225642",
+  "name": "Punto Cuidar Sudoeste",
+  "nombre": "Punto Cuidar Sudoeste",
+  "tipo_efector": "Institución Deportiva y Social"
+ },
+ {
+  "direccion": "FRANCIA 3743",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:17.232585",
+  "name": "Asociación País Joven",
+  "nombre": "Asociación País Joven",
+  "tipo_efector": "Asociación Civil"
+ },
+ {
+  "direccion": "SANTIAGO 4798",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:17.240944",
+  "name": "Vecinal 25 de Mayo",
+  "nombre": "Vecinal 25 de Mayo",
+  "tipo_efector": "Vecinal"
+ },
+ {
+  "direccion": "DE LA QUINTANA HILARION 1866",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:17.247215",
+  "name": "Vecinal Dorrego",
+  "nombre": "Vecinal Dorrego",
+  "tipo_efector": "Vecinal"
+ },
+ {
+  "direccion": "BERMUDEZ JOSE A 5951",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:17.255505",
+  "name": "Vecinal Saladillo Sud",
+  "nombre": "Vecinal Saladillo Sud",
+  "tipo_efector": "Vecinal"
+ },
+ {
+  "direccion": "CAÑA DE AMBAR 1719",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:17.263918",
+  "name": "Móvil Las Flores",
+  "nombre": "Móvil Las Flores",
+  "tipo_efector": "Centro de Salud"
+ },
+ {
+  "direccion": "CAÑA DE AMBAR 1719",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:17.272751",
+  "name": "Centro Cultural La Costa",
+  "nombre": "Centro Cultural La Costa",
+  "tipo_efector": "Centro Cultural"
+ },
+ {
+  "direccion": "ITALIA 3660",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:17.280789",
+  "name": "Club 6 de Febrero",
+  "nombre": "Club 6 de Febrero",
+  "tipo_efector": "Institución Deportiva y Social"
+ },
+ {
+  "direccion": "LITUANIA 5337",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:17.288043",
+  "name": "Club Juventud Clear",
+  "nombre": "Club Juventud Clear",
+  "tipo_efector": "Institución Deportiva y Social"
+ },
+ {
+  "direccion": "BOQUERON 639",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:17.294791",
+  "name": "Centro Cuidar Molino Blanco",
+  "nombre": "Centro Cuidar Molino Blanco",
+  "tipo_efector": "Institución Deportiva y Social"
+ },
+ {
+  "direccion": "GRANDOLI ABANDERADO CLETO 4077",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:17.301447",
+  "name": "Vecinal 22 de Julio",
+  "nombre": "Vecinal 22 de Julio",
+  "tipo_efector": "Vecinal"
+ },
+ {
+  "direccion": "DE LUCA ESTEBAN 132",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:17.309115",
+  "name": "Vecinal Las Heras",
+  "nombre": "Vecinal Las Heras",
+  "tipo_efector": "Vecinal"
+ },
+ {
+  "direccion": "URIBURU PTE. JOSE EVARISTO 1721",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:17.316809",
+  "name": "Vecinal Barrio La Guardia",
+  "nombre": "Vecinal Barrio La Guardia",
+  "tipo_efector": "Vecinal"
+ },
+ {
+  "direccion": "FRIAS FRANCISCO DE 808",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:17.326267",
+  "name": "Vecinal Vicente López y Planes",
+  "nombre": "Vecinal Vicente López y Planes",
+  "tipo_efector": "Vecinal"
+ },
+ {
+  "direccion": "ARABE UNIDA REPUBLICA 2247",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:17.334112",
+  "name": "Vecinal Pueyrredón",
+  "nombre": "Vecinal Pueyrredón",
+  "tipo_efector": "Vecinal"
+ },
+ {
+  "direccion": "AGUIRRE JULIAN 6059",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:17.343648",
+  "name": "Vecinal Parque Regional Sur",
+  "nombre": "Vecinal Parque Regional Sur",
+  "tipo_efector": "Vecinal"
+ },
+ {
+  "direccion": "BOUCHARD HIPOLITO 3700",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:17.350442",
+  "name": "Mi Techo Tu Cielo",
+  "nombre": "Mi Techo Tu Cielo",
+  "tipo_efector": "Asociación Civil"
+ },
+ {
+  "direccion": "JUAN PABLO II 2250 Bis",
+  "docstatus": 0,
+  "doctype": "Efector",
+  "modified": "2025-05-08 11:19:17.358767",
+  "name": "CAAM",
+  "nombre": "CAAM",
+  "tipo_efector": "Centro de Salud"
+ }
+]
