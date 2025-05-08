@@ -36,7 +36,7 @@ def override_queuebuilder():
 override_queuebuilder()
 
 
-after_install = "prueba.setup.asignar_rol_administrator"
+#after_install = "prueba.setup.asignar_rol_administrator"
 
 # Apps
 # ------------------
