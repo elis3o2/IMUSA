@@ -7,7 +7,7 @@ app_license = "mit"
 
 
 override_whitelisted_methods = {
-    "frappe.desk.reportview.get": "prueba.overrides.methods.query.custom_get",
+    "frappe.desk.reportview.get": "prueba.overrides.methods.reportview.custom_get",
 }
 
 # For type-checking
@@ -27,16 +27,21 @@ permission_query_conditions = {
     "User": "prueba.overrides.doctype.user.get_permission_query_conditions"
 }
 
-def override_queuebuilder():
-    import frappe.email.doctype.email_queue.email_queue
-    from prueba.overrides.doctype.queue_builder import CustomQueueBuilder
-    frappe.email.doctype.email_queue.email_queue.QueueBuilder = CustomQueueBuilder
+##def override_queuebuilder():
+##    import frappe.email.doctype.email_queue.email_queue
+##    from prueba.overrides.doctype.queue_builder import CustomQueueBuilder
+##    frappe.email.doctype.email_queue.email_queue.QueueBuilder = CustomQueueBuilder
 
 # Ejecutar el override al cargar el sistema
-override_queuebuilder()
+#override_queuebuilder()
+def override_DatabaseQuery():
+    import frappe.model.db_query
+    from prueba.patches.database import CustomDatabaseQuery
+    frappe.model.db_query.DatabaseQuery = CustomDatabaseQuery
 
-fixtures=["Efector"]
-#after_install = "prueba.setup.asignar_rol_administrator"
+override_DatabaseQuery()
+
+after_install = "prueba.prueba.setup.asignar_rol_administrator"
 
 # Apps
 # ------------------
