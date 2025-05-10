@@ -41,7 +41,7 @@ def override_DatabaseQuery():
 
 override_DatabaseQuery()
 
-after_install = "prueba.prueba.setup.asignar_rol_administrator"
+before_install = "prueba.prueba.setup.asignar_rol_administrator"
 
 # Apps
 # ------------------
