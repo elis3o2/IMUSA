@@ -221,8 +221,7 @@ frappe.views.ListView = class CustomListView extends frappe.views.ListView {
 				}
 			}
 		}
-		if (this.doctype == "Animal" || this.doctype == "Veterinario"){
-			
+		if (this.doctype == "Animal" || this.doctype == "Veterinario"){		
 			let nombrep = ({
 				type: "Field",
 				df: {
@@ -259,10 +258,9 @@ frappe.ui.AppsSwitcher = class CustomAppsSwitcher extends frappe.ui.AppsSwitcher
         setup_app_switcher() {
         this.app_switcher_menu = $(".app-switcher-menu");
         if (frappe.user_roles.includes("Creador")){
-
-            $(".app-switcher-dropdown").on("click", () => {
-                this.toggle_active();
-                this.app_switcher_menu.toggleClass("hidden");
+            $(".app-switcher-dropdown").on("click", (e) => {
+                this.toggle_app_menu();
+                e.stopImmediatePropagation();
             });
         }
     }

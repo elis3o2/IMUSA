@@ -1,0 +1,26 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2025-05-11 13:26:43.246494",
+  "name": "Veterinario",
+  "role_profile": "Veterinario",
+  "roles": [
+   {
+    "role": "Veterinario"
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2025-05-11 13:27:11.164981",
+  "name": "Administrador",
+  "role_profile": "Administrador",
+  "roles": [
+   {
+    "role": "System Manager"
+   }
+  ]
+ }
+]
