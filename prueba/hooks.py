@@ -1,5 +1,5 @@
 app_name = "prueba"
-app_title = "Prueba"
+app_title = "IMUSA"
 app_publisher = "Eliseo y Miguel"
 app_description = "castraciones"
 app_email = "prueba@gmail.com"
@@ -27,6 +27,12 @@ permission_query_conditions = {
     "User": "prueba.overrides.doctype.user.get_permission_query_conditions"
 }
 
+after_install = [
+    "prueba.patches.make_creador.execute",
+    "prueba.patches.user.execute",
+    "prueba.patches.workspace_u.execute"
+]
+
 
 ##def override_queuebuilder():
 ##    import frappe.email.doctype.email_queue.email_queue
@@ -53,7 +59,7 @@ override_DatabaseQuery()
 # 	{
 # 		"name": "prueba",
 # 		"logo": "/assets/prueba/logo.png",
-# 		"title": "Prueba",
+# 		"title": "IMUSA",
 # 		"route": "/prueba",
 # 		"has_permission": "prueba.api.permission.has_app_permission"
 # 	}

@@ -1,0 +1,200 @@
+{
+ "actions": [],
+ "autoname": "hash",
+ "creation": "2025-03-18 08:23:52.798319",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "animal_rescatado",
+  "documentop",
+  "nombrep",
+  "apellidop",
+  "direccion",
+  "telefono",
+  "correo",
+  "column_break_xiom",
+  "nombre",
+  "fecha_nacimiento",
+  "sexo",
+  "especie",
+  "raza",
+  "estado_castracion",
+  "tamano",
+  "color_pelaje",
+  "estado",
+  "fecha_fallecimiento",
+  "section_break_fcfz",
+  "atencion"
+ ],
+ "fields": [
+  {
+   "default": "No",
+   "fieldname": "animal_rescatado",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Animal rescatado",
+   "options": "Si\nNo"
+  },
+  {
+   "fieldname": "documentop",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Documento Due\u00f1o",
+   "options": "Persona"
+  },
+  {
+   "fetch_from": "documentop.nombre",
+   "fieldname": "nombrep",
+   "fieldtype": "Data",
+   "is_virtual": 1,
+   "label": "Nombre Due\u00f1o"
+  },
+  {
+   "fetch_from": "documentop.apellido",
+   "fieldname": "apellidop",
+   "fieldtype": "Data",
+   "is_virtual": 1,
+   "label": "Apellido Due\u00f1o"
+  },
+  {
+   "fetch_from": "documentop.direccion",
+   "fieldname": "direccion",
+   "fieldtype": "Data",
+   "is_virtual": 1,
+   "label": "Direcci\u00f3n"
+  },
+  {
+   "fetch_from": "documentop.telefono",
+   "fieldname": "telefono",
+   "fieldtype": "Data",
+   "is_virtual": 1,
+   "label": "Tel\u00e9fono"
+  },
+  {
+   "fetch_from": "documentop.correo",
+   "fieldname": "correo",
+   "fieldtype": "Data",
+   "is_virtual": 1,
+   "label": "Correo"
+  },
+  {
+   "fieldname": "column_break_xiom",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nombre",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Nombre"
+  },
+  {
+   "fieldname": "fecha_nacimiento",
+   "fieldtype": "Date",
+   "label": "Fecha Nacimiento"
+  },
+  {
+   "fieldname": "sexo",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Sexo",
+   "options": "Macho\nHembra",
+   "reqd": 1
+  },
+  {
+   "fieldname": "especie",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Especie",
+   "options": "Perro\nGato",
+   "reqd": 1
+  },
+  {
+   "fieldname": "raza",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Raza",
+   "options": "Raza",
+   "reqd": 1
+  },
+  {
+   "default": "No castrado",
+   "fieldname": "estado_castracion",
+   "fieldtype": "Select",
+   "label": "Estado castraci\u00f3n",
+   "not_nullable": 1,
+   "options": "Castrado\nNo castrado",
+   "reqd": 1
+  },
+  {
+   "fieldname": "tamano",
+   "fieldtype": "Select",
+   "label": "Tama\u00f1o",
+   "options": "Mini\nChico\nMediano\nGrande\nGigante",
+   "reqd": 1
+  },
+  {
+   "fieldname": "color_pelaje",
+   "fieldtype": "Select",
+   "label": "Color pelaje",
+   "options": "Negro\nGris\nNaranja\nBlanco",
+   "reqd": 1
+  },
+  {
+   "fieldname": "estado",
+   "fieldtype": "Select",
+   "label": "Estado",
+   "options": "Vivo\nFallecido",
+   "reqd": 1
+  },
+  {
+   "fieldname": "fecha_fallecimiento",
+   "fieldtype": "Date",
+   "label": "Fecha fallecimiento"
+  },
+  {
+   "fieldname": "section_break_fcfz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "atencion",
+   "fieldtype": "Table",
+   "label": "Atenciones",
+   "options": "Atencion"
+  }
+ ],
+ "hide_toolbar": 1,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-05-12 11:25:30.981909",
+ "modified_by": "Administrator",
+ "module": "IMUSA",
+ "name": "Animal",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "show_title_field_in_link": 1,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "nombre",
+ "track_changes": 1
+}

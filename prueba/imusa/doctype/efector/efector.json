@@ -1,0 +1,61 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "field:nombre",
+ "creation": "2025-05-07 09:05:47.578417",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "direccion",
+  "tipo_efector",
+  "nombre"
+ ],
+ "fields": [
+  {
+   "fieldname": "direccion",
+   "fieldtype": "Link",
+   "label": "Direccion",
+   "options": "Direcciones"
+  },
+  {
+   "fieldname": "tipo_efector",
+   "fieldtype": "Select",
+   "label": "Tipo Efector",
+   "options": "Centro de Salud\nHospital\nCentro Cultural\nInstituci\u00f3n Deportiva y Social\nVeterinaria\nVecinal\nDistrito\nEscuela\nBiblioteca\nCentro de Jubilados y Pensionados\nAsociaci\u00f3n Civil\nSUM\nM\u00f3vil IMUSA\nCanil"
+  },
+  {
+   "fieldname": "nombre",
+   "fieldtype": "Data",
+   "label": "Nombre",
+   "unique": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-05-12 11:24:00.308918",
+ "modified_by": "Administrator",
+ "module": "IMUSA",
+ "name": "Efector",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

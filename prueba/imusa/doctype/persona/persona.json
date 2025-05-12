@@ -1,0 +1,140 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{numero_documento}-{sexo}",
+ "creation": "2025-03-11 11:28:00.860788",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "numero_documento",
+  "sexo",
+  "buscar",
+  "nombre",
+  "apellido",
+  "column_break_tbrg",
+  "localidad",
+  "direccion",
+  "telefono",
+  "correo",
+  "section_break_nuyi",
+  "mapa"
+ ],
+ "fields": [
+  {
+   "fieldname": "numero_documento",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "N\u00famero Documento",
+   "reqd": 1,
+   "set_only_once": 1
+  },
+  {
+   "fieldname": "sexo",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Sexo",
+   "options": "M\nF",
+   "reqd": 1,
+   "set_only_once": 1
+  },
+  {
+   "fieldname": "buscar",
+   "fieldtype": "Button",
+   "label": "Buscar"
+  },
+  {
+   "fieldname": "nombre",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Nombre",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "apellido",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Apellido",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_tbrg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Rosario",
+   "fieldname": "localidad",
+   "fieldtype": "Select",
+   "label": "Localidad",
+   "options": "Rosario\nFunes\nOtro"
+  },
+  {
+   "fieldname": "direccion",
+   "fieldtype": "Data",
+   "label": "Direcci\u00f3n"
+  },
+  {
+   "fieldname": "telefono",
+   "fieldtype": "Data",
+   "label": "Tel\u00e9fono"
+  },
+  {
+   "fieldname": "correo",
+   "fieldtype": "Data",
+   "label": "Correo",
+   "options": "Email"
+  },
+  {
+   "fieldname": "section_break_nuyi",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "mapa",
+   "fieldtype": "Geolocation",
+   "is_virtual": 1,
+   "label": "Mapa"
+  }
+ ],
+ "hide_toolbar": 1,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-05-12 11:24:52.215382",
+ "modified_by": "Administrator",
+ "module": "IMUSA",
+ "name": "Persona",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Veterinario",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "search_fields": "nombre, apellido",
+ "show_title_field_in_link": 1,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "numero_documento"
+}

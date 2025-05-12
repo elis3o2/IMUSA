@@ -1,0 +1,115 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:feature",
+ "creation": "2025-03-14 08:19:46.147624",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "coor_column",
+  "feature",
+  "codigo_calle",
+  "altura",
+  "vecinal",
+  "barrio",
+  "distrito",
+  "fraccion_censal",
+  "radio_censal",
+  "lineas_tup",
+  "coordenada_x",
+  "coordenada_y"
+ ],
+ "fields": [
+  {
+   "fieldname": "coor_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "feature",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Feature",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "codigo_calle",
+   "fieldtype": "Data",
+   "label": "C\u00f3digo calle"
+  },
+  {
+   "fieldname": "altura",
+   "fieldtype": "Int",
+   "label": "Altura"
+  },
+  {
+   "fieldname": "vecinal",
+   "fieldtype": "Link",
+   "label": "Vecinal",
+   "options": "Vecinal"
+  },
+  {
+   "fieldname": "barrio",
+   "fieldtype": "Link",
+   "label": "Barrio",
+   "options": "Barrio"
+  },
+  {
+   "fieldname": "distrito",
+   "fieldtype": "Link",
+   "label": "Distrito",
+   "options": "Distrito"
+  },
+  {
+   "fieldname": "fraccion_censal",
+   "fieldtype": "Data",
+   "label": "Fracci\u00f3n Censal"
+  },
+  {
+   "fieldname": "radio_censal",
+   "fieldtype": "Data",
+   "label": "Radio Censal"
+  },
+  {
+   "fieldname": "lineas_tup",
+   "fieldtype": "Long Text",
+   "label": "Lineas TUP"
+  },
+  {
+   "fieldname": "coordenada_x",
+   "fieldtype": "Data",
+   "label": "Coordenada X"
+  },
+  {
+   "fieldname": "coordenada_y",
+   "fieldtype": "Data",
+   "label": "Coordenada Y"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-05-12 11:27:12.973784",
+ "modified_by": "Administrator",
+ "module": "IMUSA",
+ "name": "Direcciones",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

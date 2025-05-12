@@ -1,0 +1,48 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-03-18 08:11:55.495143",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "efector",
+  "fecha_ingreso",
+  "fecha_salida"
+ ],
+ "fields": [
+  {
+   "fieldname": "efector",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Efector",
+   "options": "Efector",
+   "reqd": 1
+  },
+  {
+   "fieldname": "fecha_ingreso",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Fecha ingreso",
+   "reqd": 1
+  },
+  {
+   "fieldname": "fecha_salida",
+   "fieldtype": "Datetime",
+   "label": "Fecha salida"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-05-12 11:25:45.074494",
+ "modified_by": "Administrator",
+ "module": "IMUSA",
+ "name": "Traslados",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
