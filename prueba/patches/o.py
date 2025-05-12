@@ -8,7 +8,6 @@ def execute():
         print("Agregando:", rol)
         ya_tiene = frappe.db.exists("Has Role", {"parent": usuario, "role": rol})
         if not ya_tiene:
-            print("AAA")
             frappe.get_doc({
                 "doctype": "Has Role",
                 "parent": usuario,
