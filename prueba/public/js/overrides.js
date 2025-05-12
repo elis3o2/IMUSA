@@ -198,7 +198,6 @@ frappe.views.ListView = class CustomListView extends frappe.views.ListView {
                 ${column_html}
             </div>
         `;}
-
 	reorder_listview_fields() {
 		let fields_order = [];
 		let fields = JSON.parse(this.list_view_settings.fields);
