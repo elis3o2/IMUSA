@@ -13,7 +13,7 @@ class Animal(Document):
 
 	if TYPE_CHECKING:
 		from frappe.types import DF
-		from prueba.prueba.doctype.atencion.atencion import Atencion
+		from prueba.imusa.doctype.atencion.atencion import Atencion
 
 		animal_rescatado: DF.Literal["Si", "No"]
 		atencion: DF.Table[Atencion]

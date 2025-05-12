@@ -13,7 +13,7 @@ class Veterinario(Document):
 
 	if TYPE_CHECKING:
 		from frappe.types import DF
-		from prueba.prueba.doctype.veterinario_efector.veterinario_efector import VeterinarioEfector
+		from prueba.imusa.doctype.veterinario_efector.veterinario_efector import VeterinarioEfector
 
 		documentop: DF.Link
 		efectores: DF.Table[VeterinarioEfector]

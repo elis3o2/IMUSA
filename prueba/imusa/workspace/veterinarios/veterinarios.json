@@ -8,27 +8,24 @@
  "doctype": "Workspace",
  "for_user": "",
  "hide_custom": 0,
- "icon": "heart",
+ "icon": "share",
  "idx": 0,
  "indicator_color": "green",
  "is_hidden": 0,
- "label": "Animales",
- "link_to": "Animal",
+ "label": "Veterinarios",
+ "link_to": "Veterinario",
  "link_type": "DocType",
  "links": [],
- "modified": "2025-05-12 18:05:59.415483",
+ "modified": "2025-05-12 18:03:29.685957",
  "modified_by": "Administrator",
  "module": "IMUSA",
- "name": "Animales",
+ "name": "Veterinarios",
  "number_cards": [],
  "owner": "eli.feuli37@gmail.com",
  "parent_page": "",
  "public": 1,
  "quick_lists": [],
  "roles": [
-  {
-   "role": "Veterinario"
-  },
   {
    "role": "System Manager"
   },
@@ -38,6 +35,6 @@
  ],
  "sequence_id": 2.0,
  "shortcuts": [],
- "title": "Animales",
+ "title": "Veterinarios",
  "type": "Link"
 }
