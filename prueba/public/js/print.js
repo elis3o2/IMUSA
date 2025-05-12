@@ -882,7 +882,7 @@ frappe.ui.form.PrintView = class {
 						__('Enviar correo a ' + correo + '?'),
 						function() { // Acción cuando el usuario hace clic en "Sí"
 							frappe.call({
-								method: "prueba.prueba.mail.send_pdf",
+								method: "prueba.imusa.mail.send_pdf",
 								args: { 
 									doctype: doctype,
 									name: namemm,

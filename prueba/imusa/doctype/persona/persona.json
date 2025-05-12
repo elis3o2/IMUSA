@@ -63,13 +63,6 @@
    "fieldtype": "Column Break"
   },
   {
-   "default": "Rosario",
-   "fieldname": "localidad",
-   "fieldtype": "Select",
-   "label": "Localidad",
-   "options": "Rosario\nFunes\nOtro"
-  },
-  {
    "fieldname": "direccion",
    "fieldtype": "Data",
    "label": "Direcci\u00f3n"
@@ -94,13 +87,20 @@
    "fieldtype": "Geolocation",
    "is_virtual": 1,
    "label": "Mapa"
+  },
+  {
+   "default": "Rosario",
+   "fieldname": "localidad",
+   "fieldtype": "Select",
+   "label": "Localidad",
+   "options": "Rosario\nFunes\nOtro"
   }
  ],
  "hide_toolbar": 1,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-05-12 11:24:52.215382",
- "modified_by": "Administrator",
+ "modified": "2025-04-29 09:46:37.548880",
+ "modified_by": "eli.feuli37@gmail.com",
  "module": "IMUSA",
  "name": "Persona",
  "naming_rule": "Expression",

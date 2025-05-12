@@ -14,29 +14,6 @@
  ],
  "fields": [
   {
-   "fieldname": "documentop",
-   "fieldtype": "Link",
-   "in_list_view": 1,
-   "label": "Documento",
-   "options": "Persona",
-   "reqd": 1,
-   "set_only_once": 1
-  },
-  {
-   "fetch_from": "documentop.nombre",
-   "fieldname": "nombrep",
-   "fieldtype": "Data",
-   "is_virtual": 1,
-   "label": "Nombre"
-  },
-  {
-   "fetch_from": "documentop.apellido",
-   "fieldname": "apellidop",
-   "fieldtype": "Data",
-   "is_virtual": 1,
-   "label": "Apellido"
-  },
-  {
    "fieldname": "matricula",
    "fieldtype": "Data",
    "in_list_view": 1,
@@ -56,13 +33,36 @@
    "fieldtype": "Table",
    "label": "Efectores",
    "options": "Veterinario-Efector"
+  },
+  {
+   "fetch_from": "documentop.nombre",
+   "fieldname": "nombrep",
+   "fieldtype": "Data",
+   "is_virtual": 1,
+   "label": "Nombre"
+  },
+  {
+   "fetch_from": "documentop.apellido",
+   "fieldname": "apellidop",
+   "fieldtype": "Data",
+   "is_virtual": 1,
+   "label": "Apellido"
+  },
+  {
+   "fieldname": "documentop",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Documento",
+   "options": "Persona",
+   "reqd": 1,
+   "set_only_once": 1
   }
  ],
  "hide_toolbar": 1,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-05-12 11:25:03.475802",
- "modified_by": "Administrator",
+ "modified": "2025-04-29 11:20:08.133017",
+ "modified_by": "eli.feuli37@gmail.com",
  "module": "IMUSA",
  "name": "Veterinario",
  "naming_rule": "Expression",

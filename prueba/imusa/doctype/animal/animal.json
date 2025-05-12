@@ -37,28 +37,6 @@
    "options": "Si\nNo"
   },
   {
-   "fieldname": "documentop",
-   "fieldtype": "Link",
-   "in_list_view": 1,
-   "in_standard_filter": 1,
-   "label": "Documento Due\u00f1o",
-   "options": "Persona"
-  },
-  {
-   "fetch_from": "documentop.nombre",
-   "fieldname": "nombrep",
-   "fieldtype": "Data",
-   "is_virtual": 1,
-   "label": "Nombre Due\u00f1o"
-  },
-  {
-   "fetch_from": "documentop.apellido",
-   "fieldname": "apellidop",
-   "fieldtype": "Data",
-   "is_virtual": 1,
-   "label": "Apellido Due\u00f1o"
-  },
-  {
    "fetch_from": "documentop.direccion",
    "fieldname": "direccion",
    "fieldtype": "Data",
@@ -165,13 +143,35 @@
    "fieldtype": "Table",
    "label": "Atenciones",
    "options": "Atencion"
+  },
+  {
+   "fieldname": "documentop",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Documento Due\u00f1o",
+   "options": "Persona"
+  },
+  {
+   "fetch_from": "documentop.nombre",
+   "fieldname": "nombrep",
+   "fieldtype": "Data",
+   "is_virtual": 1,
+   "label": "Nombre Due\u00f1o"
+  },
+  {
+   "fetch_from": "documentop.apellido",
+   "fieldname": "apellidop",
+   "fieldtype": "Data",
+   "is_virtual": 1,
+   "label": "Apellido Due\u00f1o"
   }
  ],
  "hide_toolbar": 1,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-05-12 11:25:30.981909",
- "modified_by": "Administrator",
+ "modified": "2025-04-29 11:27:08.633187",
+ "modified_by": "eli.feuli37@gmail.com",
  "module": "IMUSA",
  "name": "Animal",
  "naming_rule": "Random",

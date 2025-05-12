@@ -62,11 +62,6 @@
    "reqd": 1
   },
   {
-   "fieldname": "fecha_adopcion",
-   "fieldtype": "Date",
-   "label": "Fecha adopci\u00f3n"
-  },
-  {
    "fieldname": "adoptante",
    "fieldtype": "Link",
    "label": "Adoptante",
@@ -154,14 +149,19 @@
    "fieldtype": "Date",
    "is_virtual": 1,
    "label": "Fecha fallecimiento"
+  },
+  {
+   "fieldname": "fecha_adopcion",
+   "fieldtype": "Date",
+   "label": "Fecha adopci\u00f3n"
   }
  ],
  "hide_toolbar": 1,
  "in_create": 1,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-05-12 11:25:58.440226",
- "modified_by": "Administrator",
+ "modified": "2025-04-30 11:39:41.618530",
+ "modified_by": "eli.feuli37@gmail.com",
  "module": "IMUSA",
  "name": "Rescate",
  "owner": "Administrator",

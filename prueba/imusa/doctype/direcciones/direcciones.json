@@ -88,7 +88,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-05-12 11:27:12.973784",
+ "modified": "2025-04-08 11:38:54.727945",
  "modified_by": "Administrator",
  "module": "IMUSA",
  "name": "Direcciones",
@@ -108,7 +108,6 @@
    "write": 1
   }
  ],
- "row_format": "Dynamic",
  "sort_field": "creation",
  "sort_order": "DESC",
  "states": []

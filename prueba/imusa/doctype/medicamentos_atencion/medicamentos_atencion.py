@@ -12,12 +12,12 @@ class Medicamentos_Atencion(Document):
 	from typing import TYPE_CHECKING
 
 	if TYPE_CHECKING:
+		from frappe.model.document import Document
 		from frappe.types import DF
-		from prueba.prueba.doctype.medicamentos_cantidad.medicamentos_cantidad import Medicamentos_Cantidad
 
 		animal: DF.Link | None
 		atencion: DF.Data | None
-		medicamentos: DF.Table[Medicamentos_Cantidad]
+		medicamentos: DF.Table[Document]
 	# end: auto-generated types
 
 	pass
