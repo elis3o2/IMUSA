@@ -15,7 +15,6 @@
   "column_break_vown",
   "ingreso",
   "persona_ingresante",
-  "huella_dactilar_persona_que_ingresa",
   "boton_firma_ingreso",
   "firma_ingreso",
   "section_break_skll",
@@ -147,11 +146,6 @@
    "label": "Estado Sanitario"
   },
   {
-   "fieldname": "huella_dactilar_persona_que_ingresa",
-   "fieldtype": "Attach Image",
-   "label": "Huella dactilar persona que ingresa"
-  },
-  {
    "fieldname": "boton_eliminar",
    "fieldtype": "Button",
    "label": "Eliminar"
@@ -160,12 +154,13 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2025-04-24 10:20:14.532451",
- "modified_by": "eli.feuli37@gmail.com",
+ "modified": "2025-05-12 11:05:34.354784",
+ "modified_by": "Administrator",
  "module": "Prueba",
  "name": "Atencion",
  "owner": "Administrator",
  "permissions": [],
+ "row_format": "Dynamic",
  "sort_field": "creation",
  "sort_order": "DESC",
  "states": []

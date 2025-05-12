@@ -7,8 +7,6 @@ from frappe.model.document import Document
 
 class Atencion(Document):
 	# begin: auto-generated types
-	# ruff: noqa
-
 	# This code is auto-generated. Do not modify anything in this block.
 
 	from typing import TYPE_CHECKING
@@ -21,7 +19,6 @@ class Atencion(Document):
 		efector: DF.Link
 		egreso: DF.Datetime | None
 		estado_sanitario: DF.Text | None
-		huella_dactilar_persona_que_ingresa: DF.AttachImage | None
 		ingreso: DF.Datetime
 		parent: DF.Data
 		parentfield: DF.Data
@@ -30,8 +27,6 @@ class Atencion(Document):
 		peso: DF.Data | None
 		tipo: DF.Literal["Castraci\u00f3n", "Consulta", "Cirug\u00eda compleja", "Vacunaci\u00f3n"]
 		veterinario: DF.Link | None
-	# ruff: noqa
 	# end: auto-generated types
-
 
 	pass
