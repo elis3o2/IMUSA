@@ -27,13 +27,7 @@ permission_query_conditions = {
     "User": "prueba.overrides.doctype.user.get_permission_query_conditions"
 }
 
-fixtures = [
-    {"doctype": "Role", "filters": [["name", "in", ["Creador", "Veterinario"]]]},
-    {"doctype": "Role Profile"},
-    {"doctype": "Custom DocPerm"},
-    {"doctype": "Custom Role"},
-    {"doctype": "Role Profile"}
-]
+
 ##def override_queuebuilder():
 ##    import frappe.email.doctype.email_queue.email_queue
 ##    from prueba.overrides.doctype.queue_builder import CustomQueueBuilder
@@ -48,7 +42,6 @@ def override_DatabaseQuery():
 
 override_DatabaseQuery()
 
-before_install = "prueba.prueba.setup.asignar_rol_administrator"
 
 # Apps
 # ------------------
