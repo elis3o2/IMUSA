@@ -46,9 +46,9 @@ frappe.ui.form.on('Animal', {
 
         frm.set_query('raza', function() {
             return {
-                filters: {
-                    nombre_especie: ['in', [null, frm.doc.especie]]
-                }
+                filters: [
+                    ['Raza', 'nombre_especie', 'in', [frm.doc.especie, "Sin especie"]]
+                ]
             };
         });
 
@@ -118,7 +118,7 @@ frappe.ui.form.on('Animal', {
         frm.set_query('raza', function() {
             return {
                 filters: [
-                    ['Raza', 'nombre_especie', '=', frm.doc.especie]
+                    ['Raza', 'nombre_especie', 'in', [frm.doc.especie, "Sin especie"]]
                 ]
             };
         });

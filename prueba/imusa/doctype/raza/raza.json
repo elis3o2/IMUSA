@@ -21,7 +21,7 @@
    "fieldtype": "Select",
    "in_list_view": 1,
    "label": "Especie",
-   "options": "Perro\nGato"
+   "options": "Perro\nGato\nSin especie"
   },
   {
    "fieldname": "nombre_raza",
@@ -35,7 +35,7 @@
  "hide_toolbar": 1,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-05-05 11:24:54.564523",
+ "modified": "2025-05-13 11:10:10.496840",
  "modified_by": "Administrator",
  "module": "IMUSA",
  "name": "Raza",

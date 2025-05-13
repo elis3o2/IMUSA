@@ -1,0 +1,3 @@
+MUNI_USER = "efeuli0"
+MUNI_PASS = "Eliseo2003"
+RENAPER_KEY = "b4d9fb57-5033-4fdd-b717-68705df38d35"

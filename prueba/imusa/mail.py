@@ -8,24 +8,14 @@ from email import encoders
 from email.mime.base import MIMEBase
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
+from prueba.credenciales import MUNI_PASS, MUNI_USER
 
-"""""
-# Datos del proxy (ajusta según tu red)
-PROXY_HOST = "proxyespecial.svc.rosario.gov.ar"
-PROXY_PORT = 3128  # O el puerto correcto de tu proxy
-PROXY_USER = "efeuli0"
-PROXY_PASS = "Eliseo2003"
- 
-# Configurar el proxy en la conexión
-socks.setdefaultproxy(socks.SOCKS5, PROXY_HOST, PROXY_PORT, True, PROXY_USER, PROXY_PASS)
-socks.wrapmodule(smtplib)
 
-"""""
 # Configuración del correo
 SMTP_SERVER = "smtp.rosario.gov.ar"
 SMTP_PORT = 587
-EMAIL_USER = "efeuli0@rosario.gov.ar"
-EMAIL_PASSWORD = "Eliseo2003"
+EMAIL_USER = f"{MUNI_USER}@rosario.gov.ar"
+EMAIL_PASSWORD = MUNI_PASS
 
 
 
@@ -36,7 +26,7 @@ def send_pdf(doctype:str, name:str, print_format: str, destino:str):
     # Crear el mensaje
     msg = MIMEMultipart()
     msg['From'] = EMAIL_USER
-    msg['To'] = "eli.feuli37@gmail.com"
+    msg['To'] = destino
     msg['Subject'] = "ESTERELIZACION"
     msg.attach(MIMEText("FUNICONA", 'plain'))
 

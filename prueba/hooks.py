@@ -27,7 +27,6 @@ permission_query_conditions = {
     "User": "prueba.overrides.doctype.user.get_permission_query_conditions"
 }
 
-fixtures=["Distrito"]
 
 ##def override_queuebuilder():
 ##    import frappe.email.doctype.email_queue.email_queue

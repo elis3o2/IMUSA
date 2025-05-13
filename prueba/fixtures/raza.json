@@ -1,0 +1,18 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Raza",
+  "modified": "2025-05-13 09:00:32.879832",
+  "name": "Golden",
+  "nombre_especie": "Perro",
+  "nombre_raza": "Golden"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Raza",
+  "modified": "2025-05-13 11:10:24.351492",
+  "name": "Sin raza",
+  "nombre_especie": "Sin especie",
+  "nombre_raza": "Sin raza"
+ }
+]

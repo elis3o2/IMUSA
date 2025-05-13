@@ -1,21 +1,21 @@
 import frappe
 import requests
 import json
-#pip install pyproj --no-binary pyproj
 from pyproj import Proj
 from pyproj import Transformer
 import ast
 from frappe.utils import nowdate
+from prueba.credenciales import MUNI_USER, MUNI_PASS, RENAPER_KEY
+
 
 @frappe.whitelist()
 def get_persona_data(dni: str, sexo: str):
 
     proxies = {
-        "http": "http://efeuli0:Eliseo2003@proxyespecial.svc.rosario.gov.ar:3128",
-        "https": "http://efeuli0:Eliseo2003@proxyespecial.svc.rosario.gov.ar:3128"  
+        "http": f"http://{MUNI_USER}:{MUNI_PASS}@proxyespecial.svc.rosario.gov.ar:3128",
+        "https": f"http://{MUNI_USER}:{MUNI_PASS}@proxyespecial.svc.rosario.gov.ar:3128"  
     }
-
-    url = f"https://salud1.dyndns.org/api/ciudadanopuco/?dni={dni}&sexo={sexo}&api_key=b4d9fb57-5033-4fdd-b717-68705df38d35"
+    url = f"https://salud1.dyndns.org/api/ciudadanopuco/?dni={dni}&sexo={sexo}&api_key={RENAPER_KEY}"
 
     
     response = requests.get(url, proxies=proxies)  

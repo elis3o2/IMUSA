@@ -14,7 +14,7 @@ class Raza(Document):
 	if TYPE_CHECKING:
 		from frappe.types import DF
 
-		nombre_especie: DF.Literal["Perro", "Gato"]
+		nombre_especie: DF.Literal["Perro", "Gato", "Sin especie"]
 		nombre_raza: DF.Data
 	# end: auto-generated types
 
