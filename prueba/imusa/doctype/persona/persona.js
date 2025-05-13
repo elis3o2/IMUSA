@@ -297,7 +297,7 @@ function permisos_correo(frm){
             fieldname: "name"
         },
         callback: function(r) {
-            if (r.message) {
+            if (r.message.name) {
                 frm.set_df_property("correo", "read_only", 1);
             }
         }
