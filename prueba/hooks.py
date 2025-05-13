@@ -27,11 +27,6 @@ permission_query_conditions = {
     "User": "prueba.overrides.doctype.user.get_permission_query_conditions"
 }
 
-after_install = [
-    "prueba.patches.make_creador.execute",
-    "prueba.patches.user.execute",
-    "prueba.patches.workspace_u.execute"
-]
 
 
 ##def override_queuebuilder():
