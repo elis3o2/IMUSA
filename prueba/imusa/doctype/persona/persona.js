@@ -226,6 +226,7 @@ function options_handler(frm){
                             altura: feature.properties.altura,
                             idCalle: feature.properties.codigoCalle,
                             bis: feature.properties.bis,
+                            letra: feature.properties.letra,
                             coord_x: feature.geometry.coordinates[0],
                             coord_y: feature.geometry.coordinates[1]
                         };

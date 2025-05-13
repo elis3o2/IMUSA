@@ -27,7 +27,7 @@ permission_query_conditions = {
     "User": "prueba.overrides.doctype.user.get_permission_query_conditions"
 }
 
-
+fixtures=["Distrito"]
 
 ##def override_queuebuilder():
 ##    import frappe.email.doctype.email_queue.email_queue
@@ -39,7 +39,7 @@ permission_query_conditions = {
 def override_DatabaseQuery():
     import frappe.model.db_query
     from prueba.patches.database import CustomDatabaseQuery
-    frappe.model.db_query.DatabaseQuery = CustomDatabaseQuery
+    frappe.model.db_query.DatabaseQuery.build_and_run = CustomDatabaseQuery.build_and_run
 
 override_DatabaseQuery()
 

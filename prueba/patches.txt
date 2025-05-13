@@ -4,6 +4,7 @@
 
 [post_model_sync]
 # Patches added in this section will be executed after doctypes are migrated
-prueba.patches.user 
-prueba.patches.make_creador 
-prueba.patches.workspace_u 
+prueba.patches.user #0
+prueba.patches.make_creador #0
+prueba.patches.workspace_u #0
+prueba.patches.workspaces 

@@ -44,6 +44,8 @@ class CustomDatabaseQuery(OriginalDatabaseQuery):
 		{order_by}
 		{limit}
 		""".format(**args)
+		
+
 		return frappe.db.sql(
 			query,
 			as_dict=not self.as_list,

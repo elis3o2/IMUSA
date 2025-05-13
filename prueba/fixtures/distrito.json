@@ -1,0 +1,44 @@
+[
+ {
+  "distrito": "Centro",
+  "docstatus": 0,
+  "doctype": "Distrito",
+  "modified": "2025-05-13 08:56:50.491427",
+  "name": "Centro"
+ },
+ {
+  "distrito": "Sur",
+  "docstatus": 0,
+  "doctype": "Distrito",
+  "modified": "2025-05-13 08:57:01.656227",
+  "name": "Sur"
+ },
+ {
+  "distrito": "Oeste",
+  "docstatus": 0,
+  "doctype": "Distrito",
+  "modified": "2025-05-13 08:57:09.342388",
+  "name": "Oeste"
+ },
+ {
+  "distrito": "Norte",
+  "docstatus": 0,
+  "doctype": "Distrito",
+  "modified": "2025-05-13 08:57:18.283591",
+  "name": "Norte"
+ },
+ {
+  "distrito": "Sudoeste",
+  "docstatus": 0,
+  "doctype": "Distrito",
+  "modified": "2025-05-13 08:58:02.627039",
+  "name": "Sudoeste"
+ },
+ {
+  "distrito": "Noroeste",
+  "docstatus": 0,
+  "doctype": "Distrito",
+  "modified": "2025-05-13 08:58:09.892404",
+  "name": "Noroeste"
+ }
+]

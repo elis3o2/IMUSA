@@ -143,7 +143,7 @@ def obtener_efectores():
         return []
     
     # Obtener el nombre del veterinario asociado a la persona
-    veterinario = frappe.get_value("Veterinario", {"persona": persona}, "name")
+    veterinario = frappe.get_value("Veterinario", persona, "name")
     if not veterinario:
         return []
 
