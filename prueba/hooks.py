@@ -28,6 +28,11 @@ permission_query_conditions = {
 }
 
 
+
+after_instal=["patches.make_creador",
+            "patches.workspace_u",
+            "patches.workspaces"]
+
 ##def override_queuebuilder():
 ##    import frappe.email.doctype.email_queue.email_queue
 ##    from prueba.overrides.doctype.queue_builder import CustomQueueBuilder

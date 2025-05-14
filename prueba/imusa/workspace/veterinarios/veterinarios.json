@@ -16,7 +16,7 @@
  "link_to": "Veterinario",
  "link_type": "DocType",
  "links": [],
- "modified": "2025-05-12 18:03:29.685957",
+ "modified": "2025-05-14 08:26:44.630467",
  "modified_by": "Administrator",
  "module": "IMUSA",
  "name": "Veterinarios",
@@ -33,7 +33,7 @@
    "role": "Creador"
   }
  ],
- "sequence_id": 2.0,
+ "sequence_id": 5.0,
  "shortcuts": [],
  "title": "Veterinarios",
  "type": "Link"

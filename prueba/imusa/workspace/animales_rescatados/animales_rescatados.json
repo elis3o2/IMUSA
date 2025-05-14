@@ -1,44 +1,43 @@
 {
-    "app": "prueba",
-    "charts": [],
-    "content": "[]",
-    "creation": "2025-03-25 08:08:06.161929",
-    "custom_blocks": [],
-    "docstatus": 0,
-    "doctype": "Workspace",
-    "for_user": "",
-    "hide_custom": 0,
-    "icon": "add",
-    "idx": 0,
-    "indicator_color": "green",
-    "is_hidden": 0,
-    "label": "Animales rescatados",
-    "link_to": "Rescate",
-    "link_type": "DocType",
-    "links": [],
-    "modified": "2025-05-12 11:59:11.122426",
-    "modified_by": "Administrator",
-    "module": "IMUSA",
-    "name": "Animales rescatados",
-    "number_cards": [],
-    "owner": "eli.feuli37@gmail.com",
-    "parent_page": "",
-    "public": 1,
-    "quick_lists": [],
-    "roles": [
-     {
-      "role": "Veterinario"
-     },
-     {
-      "role": "System Manager"
-     },
-     {
-      "role": "Creador"
-     }
-    ],
-    "sequence_id": 2.0,
-    "shortcuts": [],
-    "title": "Animales rescatados",
-    "type": "Link"
-   }
-   
+ "app": "prueba",
+ "charts": [],
+ "content": "[]",
+ "creation": "2025-03-25 08:08:06.161929",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "add",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Animales rescatados",
+ "link_to": "Rescate",
+ "link_type": "DocType",
+ "links": [],
+ "modified": "2025-05-14 08:26:52.695605",
+ "modified_by": "Administrator",
+ "module": "IMUSA",
+ "name": "Animales rescatados",
+ "number_cards": [],
+ "owner": "eli.feuli37@gmail.com",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Veterinario"
+  },
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Creador"
+  }
+ ],
+ "sequence_id": 3.0,
+ "shortcuts": [],
+ "title": "Animales rescatados",
+ "type": "Link"
+}

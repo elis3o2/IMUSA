@@ -16,7 +16,7 @@
  "link_to": "User",
  "link_type": "DocType",
  "links": [],
- "modified": "2025-05-12 18:03:05.835648",
+ "modified": "2025-05-14 08:26:38.248230",
  "modified_by": "Administrator",
  "module": "IMUSA",
  "name": "Usuarios",
@@ -33,7 +33,7 @@
    "role": "Creador"
   }
  ],
- "sequence_id": 2.0,
+ "sequence_id": 4.0,
  "shortcuts": [],
  "title": "Usuarios",
  "type": "Link"
