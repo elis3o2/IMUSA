@@ -26,7 +26,7 @@ def send_pdf(doctype:str, name:str, print_format: str, destino:str):
     msg = MIMEMultipart()
     msg['From'] = EMAIL_USER
     msg['To'] = destino
-    msg['Subject'] = "ESTERELIZACION"
+    msg['Subject'] = print_format
     msg.attach(MIMEText("Animal atendido.", 'plain'))
 
     pdf_content = get_print(doctype, name, print_format=print_format, as_pdf=True)

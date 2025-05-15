@@ -863,15 +863,16 @@ frappe.ui.form.PrintView = class {
 	}
 	
 	send_pdf(){
-		let castracion = this.frm.doc.atencion.find(row => row.tipo === "Castración");
+		//let castracion = this.frm.doc.atencion.find(row => row.tipo === "Castración");
 
-    	let personaIngresante = castracion.persona_ingresante;
+    	let personaIngresante = this.frm.doc.documentop;
+
 
 		let doctype= this.frm.doc.doctype
 		let namemm= this.frm.doc.name
 		let format= this.get_print_format().name
 
-		if (format == "Esterelización" && personaIngresante){
+		if (personaIngresante){
 
 			frappe.db.get_value("Persona", personaIngresante, "correo").then((respuesta) => {
 				console.log(respuesta.message.correo)
