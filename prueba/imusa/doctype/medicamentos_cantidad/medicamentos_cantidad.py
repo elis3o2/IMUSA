@@ -14,7 +14,7 @@ class Medicamentos_Cantidad(Document):
 	if TYPE_CHECKING:
 		from frappe.types import DF
 
-		cantidad: DF.Data
+		cantidad: DF.Float
 		medicamento: DF.Link
 		parent: DF.Data
 		parentfield: DF.Data

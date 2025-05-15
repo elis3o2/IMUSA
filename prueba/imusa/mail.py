@@ -1,6 +1,5 @@
 import frappe
 from frappe import get_print
-import socks
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
@@ -28,7 +27,7 @@ def send_pdf(doctype:str, name:str, print_format: str, destino:str):
     msg['From'] = EMAIL_USER
     msg['To'] = destino
     msg['Subject'] = "ESTERELIZACION"
-    msg.attach(MIMEText("FUNICONA", 'plain'))
+    msg.attach(MIMEText("Animal atendido.", 'plain'))
 
     pdf_content = get_print(doctype, name, print_format=print_format, as_pdf=True)
 

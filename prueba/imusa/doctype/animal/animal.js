@@ -459,7 +459,7 @@ frappe.ui.form.on('Atencion', {
         if (!row.efector) {frappe.msgprint("Debe especificar un efector");return;}      
         if(frm.doc.documentop ){
             if(!row.persona_ingresante ) {frappe.msgprint("Debe cargar al responsable");return;}
-            if(!row.firma_ingreso) {frappe.msgprint("Falta firma del responsable");return;}
+            //if(!row.firma_ingreso) {frappe.msgprint("Falta firma del responsable");return;}
         }
         let now = frappe.datetime.now_datetime();
         frappe.model.set_value(cdt, cdn, 'egreso', now);
@@ -468,7 +468,7 @@ frappe.ui.form.on('Atencion', {
         frm.set_df_property('atencion', 'hidden', 1, frm.docname, 'boton_eliminar', row.name)
         frm.set_df_property('atencion', 'reqd', 1, frm.docname, 'egreso', row.name)
         if (frm.doc.documentop){
-	        frm.set_df_property('atencion', 'reqd', 1, frm.docname, 'firma_egreso', row.name)
+	        //frm.set_df_property('atencion', 'reqd', 1, frm.docname, 'firma_egreso', row.name)
         }
         else{frm.set_df_property('atencion', 'hidden', 1, frm.docname, 'boton_firma_egreso', row.name)}
     },
@@ -662,7 +662,7 @@ function agregar_campo_medicacion(frm, cdn, medicamento_valor = "", cantidad_val
         df: {
             label: "Cantidad Suministrada (ml)",
             fieldname: "cantidad_" + index,
-            fieldtype: "Data",
+            fieldtype: "Float",
             read_only: num
         },
         render_input: true
