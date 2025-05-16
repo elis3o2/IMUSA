@@ -13,6 +13,7 @@ class Rescate(Document):
 
 	if TYPE_CHECKING:
 		from frappe.types import DF
+		from prueba.imusa.doctype.efector_fecha.efector_fecha import EfectorFecha
 
 		adoptado: DF.Literal["Si", "No"]
 		adoptante: DF.Link | None
@@ -21,6 +22,7 @@ class Rescate(Document):
 		persona_ingresante: DF.Link
 		tipo_entrada: DF.Literal["Policial", "Municipal", "Otro"]
 		ubicacion: DF.Link | None
+		ubicaciones: DF.Table[EfectorFecha]
 	# end: auto-generated types
 
 	pass

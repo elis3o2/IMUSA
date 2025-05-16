@@ -23,7 +23,9 @@
   "tamano",
   "color_pelaje",
   "estado",
-  "fecha_fallecimiento"
+  "fecha_fallecimiento",
+  "section_break_atno",
+  "ubicaciones"
  ],
  "fields": [
   {
@@ -154,14 +156,24 @@
    "fieldname": "fecha_adopcion",
    "fieldtype": "Date",
    "label": "Fecha adopci\u00f3n"
+  },
+  {
+   "fieldname": "section_break_atno",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "ubicaciones",
+   "fieldtype": "Table",
+   "label": "Ubicaciones",
+   "options": "Efector-Fecha"
   }
  ],
  "hide_toolbar": 1,
  "in_create": 1,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-04-30 11:39:41.618530",
- "modified_by": "eli.feuli37@gmail.com",
+ "modified": "2025-05-16 11:34:33.534940",
+ "modified_by": "Administrator",
  "module": "IMUSA",
  "name": "Rescate",
  "owner": "Administrator",

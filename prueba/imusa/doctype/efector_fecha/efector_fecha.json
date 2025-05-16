@@ -1,0 +1,50 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-05-16 11:21:49.501929",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "ubicacion",
+  "fecha_entrada",
+  "fecha_salida"
+ ],
+ "fields": [
+  {
+   "fieldname": "ubicacion",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Ubicaci\u00f3n",
+   "options": "Efector",
+   "reqd": 1
+  },
+  {
+   "fieldname": "fecha_entrada",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Fecha entrada",
+   "reqd": 1
+  },
+  {
+   "fieldname": "fecha_salida",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Fecha salida"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-05-16 11:33:34.387261",
+ "modified_by": "Administrator",
+ "module": "IMUSA",
+ "name": "Efector-Fecha",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
