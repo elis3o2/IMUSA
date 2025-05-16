@@ -48,6 +48,11 @@ def override_DatabaseQuery():
 
 override_DatabaseQuery()
 
+website_context = {
+	"favicon": "/assets/prueba/public/images/Escudo-Rosario.png",
+	"splash_image": "/assets/prueba/public/images/Escudo-Rosario.png"
+}
+
 
 # Apps
 # ------------------

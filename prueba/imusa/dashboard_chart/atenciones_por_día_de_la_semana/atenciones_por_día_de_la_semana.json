@@ -9,9 +9,9 @@
  "filters_json": "{}",
  "group_by_type": "Count",
  "idx": 8,
- "is_public": 0,
+ "is_public": 1,
  "is_standard": 1,
- "modified": "2025-04-23 11:45:07.173408",
+ "modified": "2025-05-16 08:24:31.474506",
  "modified_by": "Administrator",
  "module": "IMUSA",
  "name": "Atenciones por d\u00eda de la semana",
@@ -21,6 +21,12 @@
  "roles": [
   {
    "role": "Veterinario"
+  },
+  {
+   "role": "Creador"
+  },
+  {
+   "role": "System Manager"
   }
  ],
  "time_interval": "Yearly",

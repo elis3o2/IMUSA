@@ -9,9 +9,9 @@
  "filters_json": "{}",
  "group_by_type": "Count",
  "idx": 0,
- "is_public": 0,
+ "is_public": 1,
  "is_standard": 1,
- "modified": "2025-04-23 11:44:10.775018",
+ "modified": "2025-05-16 08:25:03.669166",
  "modified_by": "Administrator",
  "module": "IMUSA",
  "name": "Atenciones por a\u00f1o y tipo",
@@ -21,6 +21,12 @@
  "roles": [
   {
    "role": "Veterinario"
+  },
+  {
+   "role": "Creador"
+  },
+  {
+   "role": "System Manager"
   }
  ],
  "time_interval": "Yearly",

@@ -1,0 +1,58 @@
+[
+ {
+  "allow_edit": 0,
+  "disable_auto_refresh": 0,
+  "disable_automatic_recency_filters": 0,
+  "disable_comment_count": 1,
+  "disable_count": 0,
+  "disable_sidebar_stats": 1,
+  "docstatus": 0,
+  "doctype": "List View Settings",
+  "fields": "[{\"label\":\"Documento\",\"fieldname\":\"documentop\"},{\"label\":\"Matricula\",\"fieldname\":\"matricula\"},{\"label\":\"Apellido\",\"fieldname\":\"apellidop\"},{\"label\":\"Nombre\",\"fieldname\":\"nombrep\"}]",
+  "modified": "2025-05-16 08:37:59.410438",
+  "name": "Veterinario",
+  "total_fields": "4"
+ },
+ {
+  "allow_edit": 0,
+  "disable_auto_refresh": 0,
+  "disable_automatic_recency_filters": 0,
+  "disable_comment_count": 1,
+  "disable_count": 0,
+  "disable_sidebar_stats": 1,
+  "docstatus": 0,
+  "doctype": "List View Settings",
+  "fields": "[{\"fieldname\":\"nombre\",\"label\":\"Nombre\"},{\"fieldname\":\"documentop\",\"label\":\"Documento Dueño\"},{\"fieldname\":\"animal_rescatado\",\"label\":\"Animal rescatado\"},{\"fieldname\":\"especie\",\"label\":\"Especie\"},{\"fieldname\":\"raza\",\"label\":\"Raza\"},{\"fieldname\":\"sexo\",\"label\":\"Sexo\"},{\"fieldname\":\"apellidop\",\"label\":\"Apellido Dueño\"},{\"fieldname\":\"nombrep\",\"label\":\"Nombre Dueño\"}]",
+  "modified": "2025-05-16 08:38:41.511122",
+  "name": "Animal",
+  "total_fields": "8"
+ },
+ {
+  "allow_edit": 0,
+  "disable_auto_refresh": 0,
+  "disable_automatic_recency_filters": 0,
+  "disable_comment_count": 1,
+  "disable_count": 0,
+  "disable_sidebar_stats": 1,
+  "docstatus": 0,
+  "doctype": "List View Settings",
+  "fields": "[{\"fieldname\":\"animal\",\"label\":\"Animal\"},{\"fieldname\":\"tipo_entrada\",\"label\":\"Tipo Entrada\"},{\"fieldname\":\"persona_ingresante\",\"label\":\"Persona ingresante\"},{\"fieldname\":\"ubicacion\",\"label\":\"Ubicación actual\"},{\"fieldname\":\"adoptado\",\"label\":\"Adoptado\"}]",
+  "modified": "2025-05-16 08:38:32.044684",
+  "name": "Rescate",
+  "total_fields": "5"
+ },
+ {
+  "allow_edit": 0,
+  "disable_auto_refresh": 0,
+  "disable_automatic_recency_filters": 0,
+  "disable_comment_count": 1,
+  "disable_count": 0,
+  "disable_sidebar_stats": 1,
+  "docstatus": 0,
+  "doctype": "List View Settings",
+  "fields": "[{\"label\":\"Nombre completo\",\"fieldname\":\"full_name\"},{\"type\":\"Status\",\"label\":\"Estado\",\"fieldname\":\"status_field\"}]",
+  "modified": "2025-05-16 08:38:20.078518",
+  "name": "User",
+  "total_fields": "4"
+ }
+]

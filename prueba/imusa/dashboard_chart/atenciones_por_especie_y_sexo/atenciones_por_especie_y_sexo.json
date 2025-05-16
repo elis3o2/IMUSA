@@ -11,7 +11,7 @@
  "idx": 8,
  "is_public": 0,
  "is_standard": 1,
- "modified": "2025-04-23 11:44:48.836005",
+ "modified": "2025-05-16 08:12:51.180946",
  "modified_by": "Administrator",
  "module": "IMUSA",
  "name": "Atenciones por especie y sexo",
@@ -21,6 +21,12 @@
  "roles": [
   {
    "role": "Veterinario"
+  },
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Creador"
   }
  ],
  "time_interval": "Yearly",
