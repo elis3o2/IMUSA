@@ -34,7 +34,11 @@ frappe.ui.form.on('Animal', {
     },
 
     onload: function(frm) {
-		
+
+        if (frm.custom_tipo){ frm.custom_tipo.$wrapper.remove()}
+		if (frm.custom_entrante){ frm.custom_entrante.$wrapper.remove()}
+
+
 		if (frm.is_new()){
 		    frm.toggle_display('documentop', frm.doc.animal_rescatado == 'No');
 		    frm.toggle_reqd('documentop', frm.doc.animal_rescatado == 'No');
