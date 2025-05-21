@@ -28,7 +28,7 @@ permission_query_conditions = {
 }
 
 
-
+fixtures =[{"doctype": "Navbar Item", "filters": [["parentfield","=", "settings_dropdown"]]}]
 
 after_migrate=["prueba.patches.make_creador.execute",
             "prueba.patches.workspace_u.execute",

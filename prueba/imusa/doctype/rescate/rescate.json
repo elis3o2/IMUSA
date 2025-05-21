@@ -8,9 +8,8 @@
  "field_order": [
   "tipo_entrada",
   "persona_ingresante",
-  "ubicacion",
+  "ubicacion_actual",
   "adoptado",
-  "fecha_adopcion",
   "adoptante",
   "column_break_hnhe",
   "animal",
@@ -44,14 +43,6 @@
    "label": "Persona ingresante",
    "options": "Persona",
    "reqd": 1
-  },
-  {
-   "fieldname": "ubicacion",
-   "fieldtype": "Link",
-   "in_list_view": 1,
-   "in_standard_filter": 1,
-   "label": "Ubicaci\u00f3n actual",
-   "options": "Efector"
   },
   {
    "default": "No",
@@ -153,11 +144,6 @@
    "label": "Fecha fallecimiento"
   },
   {
-   "fieldname": "fecha_adopcion",
-   "fieldtype": "Date",
-   "label": "Fecha adopci\u00f3n"
-  },
-  {
    "fieldname": "section_break_atno",
    "fieldtype": "Section Break"
   },
@@ -166,13 +152,22 @@
    "fieldtype": "Table",
    "label": "Ubicaciones",
    "options": "Efector-Fecha"
+  },
+  {
+   "fieldname": "ubicacion_actual",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Ubicaci\u00f3n actual",
+   "options": "Efector",
+   "read_only": 1
   }
  ],
  "hide_toolbar": 1,
  "in_create": 1,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-05-16 11:34:33.534940",
+ "modified": "2025-05-21 10:47:52.191096",
  "modified_by": "Administrator",
  "module": "IMUSA",
  "name": "Rescate",

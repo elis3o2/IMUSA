@@ -3,7 +3,7 @@ frappe.listview_settings['Rescate'] = {
     hide_name_column: true,
     
     onload: function(listview) {
-        listview.page.fields_dict.ubicacion.get_query = function() {
+        listview.page.fields_dict.ubicacion_actual.get_query = function() {
             return {
                 filters: {
                     tipo_efector: 'Canil'

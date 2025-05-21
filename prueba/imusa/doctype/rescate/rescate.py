@@ -18,10 +18,9 @@ class Rescate(Document):
 		adoptado: DF.Literal["Si", "No"]
 		adoptante: DF.Link | None
 		animal: DF.Link
-		fecha_adopcion: DF.Date | None
 		persona_ingresante: DF.Link
 		tipo_entrada: DF.Literal["Policial", "Municipal", "Otro"]
-		ubicacion: DF.Link | None
+		ubicacion_actual: DF.Link | None
 		ubicaciones: DF.Table[EfectorFecha]
 	# end: auto-generated types
 

@@ -22,9 +22,16 @@ frappe.ui.form.on('User', {
             frm.set_df_property('role_profiles', 'read_only', 1);  // Deshabilita la edición del campo
 		}
 
+        if (!frm.is_new()){
+            frm.set_df_property('persona', 'read_only', 1);
+        }
+
     },
 
     onload: function(frm){
+        if (!frm.is_new()){
+            frm.set_df_property('persona', 'read_only', 1);
+        }
         frm.set_df_property('first_name', 'read_only', 1);
         frm.set_df_property('last_name', 'read_only', 1);
         frm.set_df_property('email', 'read_only', 1);
