@@ -302,5 +302,9 @@ frappe.widget.widget_factory.number_card = function NumberCardWidgetOverride(opt
         return;
     }
 
+    widget.set_events = function () {
+        return;
+    }
+
     return widget;
 };
