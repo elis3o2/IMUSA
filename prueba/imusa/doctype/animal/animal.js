@@ -162,6 +162,7 @@ function permisos(frm){
         
         if (creation_date !== today && frm.doc.owner !== frappe.session.user){
             frm.set_df_property('sexo', 'read_only', 1);
+            frm.set_df_property('animal_rescatado', 'read_only', 1);
             frm.set_df_property('especie', 'read_only', 1);
             frm.set_df_property('raza', 'read_only', 1);
             frm.set_df_property('tamano', 'read_only', 1);

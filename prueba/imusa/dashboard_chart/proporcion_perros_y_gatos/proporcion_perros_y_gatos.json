@@ -1,0 +1,44 @@
+{
+ "based_on": "",
+ "chart_name": "Proporcion perros y gatos",
+ "chart_type": "Group By",
+ "creation": "2025-05-22 09:52:00.654960",
+ "currency": "",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart",
+ "document_type": "Animal",
+ "dynamic_filters_json": "[]",
+ "filters_json": "[]",
+ "group_by_based_on": "especie",
+ "group_by_type": "Count",
+ "idx": 1,
+ "is_public": 1,
+ "is_standard": 1,
+ "last_synced_on": "2025-05-23 11:27:18.599734",
+ "modified": "2025-05-23 11:27:42.299522",
+ "modified_by": "Administrator",
+ "module": "IMUSA",
+ "name": "Proporcion perros y gatos",
+ "number_of_groups": 2,
+ "owner": "Administrator",
+ "parent_document_type": "",
+ "roles": [
+  {
+   "role": "Creador"
+  },
+  {
+   "role": "Veterinario"
+  },
+  {
+   "role": "System Manager"
+  }
+ ],
+ "source": "",
+ "time_interval": "Yearly",
+ "timeseries": 0,
+ "timespan": "Last Year",
+ "type": "Pie",
+ "use_report_chart": 0,
+ "value_based_on": "",
+ "y_axis": []
+}

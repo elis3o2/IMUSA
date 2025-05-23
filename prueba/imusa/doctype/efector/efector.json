@@ -15,26 +15,32 @@
   {
    "fieldname": "direccion",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Direccion",
-   "options": "Direcciones"
+   "options": "Direcciones",
+   "reqd": 1
   },
   {
    "fieldname": "tipo_efector",
    "fieldtype": "Select",
+   "in_list_view": 1,
    "label": "Tipo Efector",
-   "options": "Centro de Salud\nHospital\nCentro Cultural\nInstituci\u00f3n Deportiva y Social\nVeterinaria\nVecinal\nDistrito\nEscuela\nBiblioteca\nCentro de Jubilados y Pensionados\nAsociaci\u00f3n Civil\nSUM\nM\u00f3vil IMUSA\nCanil"
+   "options": "Centro de Salud\nHospital\nCentro Cultural\nInstituci\u00f3n Deportiva y Social\nVeterinaria\nVecinal\nDistrito\nEscuela\nBiblioteca\nCentro de Jubilados y Pensionados\nAsociaci\u00f3n Civil\nSUM\nM\u00f3vil IMUSA\nCanil",
+   "reqd": 1
   },
   {
    "fieldname": "nombre",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Nombre",
+   "reqd": 1,
    "unique": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-05-08 11:16:02.936635",
+ "modified": "2025-05-22 10:00:31.266697",
  "modified_by": "Administrator",
  "module": "IMUSA",
  "name": "Efector",

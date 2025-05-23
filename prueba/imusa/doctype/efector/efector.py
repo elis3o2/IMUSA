@@ -14,8 +14,8 @@ class Efector(Document):
 	if TYPE_CHECKING:
 		from frappe.types import DF
 
-		direccion: DF.Link | None
-		nombre: DF.Data | None
+		direccion: DF.Link
+		nombre: DF.Data
 		tipo_efector: DF.Literal["Centro de Salud", "Hospital", "Centro Cultural", "Instituci\u00f3n Deportiva y Social", "Veterinaria", "Vecinal", "Distrito", "Escuela", "Biblioteca", "Centro de Jubilados y Pensionados", "Asociaci\u00f3n Civil", "SUM", "M\u00f3vil IMUSA", "Canil"]
 	# end: auto-generated types
 

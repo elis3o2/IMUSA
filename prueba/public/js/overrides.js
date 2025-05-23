@@ -264,3 +264,43 @@ frappe.ui.AppsSwitcher = class CustomAppsSwitcher extends frappe.ui.AppsSwitcher
         }
     }
 }
+
+// Guardamos la versión original del constructor
+const OriginalChartWidget = frappe.widget.widget_factory.chart;
+
+// Creamos una nueva función que hace lo mismo pero modifica el método deseado
+frappe.widget.widget_factory.chart = function ChartWidgetOverride(opts) {
+    // Creamos la instancia original
+    const widget = new OriginalChartWidget(opts);
+
+    // Sobrescribimos el método setup_filter_button
+    widget.setup_filter_button = function () {
+        console.log("Botón de filtro desactivado");
+        return;
+    };
+   
+    widget.set_chart_actions = function(){
+        console.log("Botón de configuración desactivado");
+        return;
+    }
+
+    return widget;
+};
+
+
+// Guardamos la versión original del constructor
+const OriginalNumberCardWidget = frappe.widget.widget_factory.number_card;
+
+// Creamos una nueva función que hace lo mismo pero modifica el método deseado
+frappe.widget.widget_factory.number_card = function NumberCardWidgetOverride(opts) {
+    // Creamos la instancia original
+    const widget = new OriginalNumberCardWidget(opts);
+
+
+    widget.set_card_actions = function(){
+        console.log("Botón de configuración desactivado");
+        return;
+    }
+
+    return widget;
+};
