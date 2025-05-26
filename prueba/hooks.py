@@ -28,14 +28,17 @@ permission_query_conditions = {
 }
 
 
-fixtures =[{"doctype": "Navbar Item", "filters": [["parentfield","=", "settings_dropdown"]]}]
+after_install=["prueba.patches.make_creador.execute",
+            "prueba.patches.workspace_u.execute",
+            "prueba.patches.workspaces.execute",
+            "prueba.patches.clean_navbar.execute"]
 
-#after_install=[""]
 
 
 after_migrate=["prueba.patches.make_creador.execute",
             "prueba.patches.workspace_u.execute",
-            "prueba.patches.workspaces.execute"]
+            "prueba.patches.workspaces.execute",
+            "prueba.patches.clean_navbar.execute"]
 
 ##def override_queuebuilder():
 ##    import frappe.email.doctype.email_queue.email_queue
