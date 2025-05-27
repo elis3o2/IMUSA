@@ -2,15 +2,15 @@
  "app": "prueba",
  "charts": [
   {
-   "chart_name": "Proporcion perros y gatos",
-   "label": "Perros y gatos atendidos"
-  },
-  {
    "chart_name": "Atenciones por distrito",
    "label": "Atenciones por distrito"
+  },
+  {
+   "chart_name": "Proporcion perros y gatos",
+   "label": "Perros y gatos atendidos"
   }
  ],
- "content": "[{\"id\":\"zoeCB7wVFY\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Sistema inform\u00e1tico de IMUSA</span>\",\"col\":12}},{\"id\":\"BG4mWpZm9C\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Atenciones realizadas\",\"col\":4}},{\"id\":\"EuhuTzMrfs\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Animales en canil IMUSA\",\"col\":4}},{\"id\":\"qi7DqfB10l\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Perros y gatos atendidos\",\"col\":12}},{\"id\":\"FGL21o2UvE\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Atenciones por distrito\",\"col\":12}},{\"id\":\"JIe_vF--Fp\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Atenciones por distrito v2\",\"col\":12}}]",
+ "content": "[{\"id\":\"zoeCB7wVFY\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Sistema inform\u00e1tico de IMUSA</span>\",\"col\":12}},{\"id\":\"BG4mWpZm9C\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Atenciones realizadas\",\"col\":4}},{\"id\":\"EuhuTzMrfs\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Animales en canil IMUSA\",\"col\":4}},{\"id\":\"qi7DqfB10l\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Perros y gatos atendidos\",\"col\":12}},{\"id\":\"zYkN3Auy40\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Atenciones por distrito\",\"col\":12}}]",
  "creation": "2025-05-22 09:43:07.056088",
  "custom_blocks": [],
  "docstatus": 0,
@@ -24,18 +24,18 @@
  "label": "Imusa",
  "link_type": "DocType",
  "links": [],
- "modified": "2025-05-23 11:31:11.249218",
+ "modified": "2025-05-27 10:29:24.787689",
  "modified_by": "Administrator",
  "module": "IMUSA",
  "name": "Imusa",
  "number_cards": [
   {
-   "label": "Atenciones realizadas",
-   "number_card_name": "Atenciones realizadas"
+   "label": "Animales en canil IMUSA",
+   "number_card_name": "Animales en IMUSa"
   },
   {
-   "label": "Animales en canil IMUSA",
-   "number_card_name": "Animales en IMUSA"
+   "label": "Atenciones realizadas",
+   "number_card_name": "Atenciones realizadas"
   }
  ],
  "owner": "Administrator",

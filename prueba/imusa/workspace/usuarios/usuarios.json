@@ -16,13 +16,13 @@
  "link_to": "User",
  "link_type": "DocType",
  "links": [],
- "modified": "2025-05-14 08:26:38.248230",
+ "modified": "2025-05-27 09:57:11.374371",
  "modified_by": "Administrator",
  "module": "IMUSA",
  "name": "Usuarios",
  "number_cards": [],
  "owner": "eli.feuli37@gmail.com",
- "parent_page": "",
+ "parent_page": "Imusa",
  "public": 1,
  "quick_lists": [],
  "roles": [
@@ -33,7 +33,7 @@
    "role": "Creador"
   }
  ],
- "sequence_id": 4.0,
+ "sequence_id": 5.0,
  "shortcuts": [],
  "title": "Usuarios",
  "type": "Link"

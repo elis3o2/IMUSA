@@ -28,12 +28,6 @@ permission_query_conditions = {
 }
 
 
-after_install=["prueba.patches.make_creador.execute",
-            "prueba.patches.workspace_u.execute",
-            "prueba.patches.workspaces.execute",
-            "prueba.patches.clean_navbar.execute"]
-
-
 
 after_migrate=["prueba.patches.make_creador.execute",
             "prueba.patches.workspace_u.execute",

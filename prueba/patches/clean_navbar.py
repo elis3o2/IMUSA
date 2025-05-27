@@ -1,6 +1,6 @@
 import frappe
 
-def clean_navbar_items():
+def execute():
     # Lista de ítems que se quieren conservar
     allowed_labels = ["Reload", "User Settings", "Toggle Theme", "Log out"]
 

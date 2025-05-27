@@ -24,7 +24,7 @@ class Atencion(Document):
 		parentfield: DF.Data
 		parenttype: DF.Data
 		persona_ingresante: DF.Link | None
-		peso: DF.Data | None
+		peso: DF.Float
 		tipo: DF.Literal["Castraci\u00f3n", "Consulta", "Cirug\u00eda compleja", "Vacunaci\u00f3n"]
 		veterinario: DF.Link | None
 	# end: auto-generated types
