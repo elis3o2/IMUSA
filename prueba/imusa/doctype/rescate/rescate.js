@@ -54,9 +54,7 @@ frappe.ui.form.on('Rescate', {
     
 
 	after_save: function(frm){
-	    if (frm.doc.adoptado == "Si"){
-	        frappe.db.set_value("Animal", frm.doc.animal, "documentop", frm.doc.adoptante)
-	    }
+
         
         if (frm.doc.ubicaciones.length > 0){
             let n = frm.doc.ubicaciones.length
