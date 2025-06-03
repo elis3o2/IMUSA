@@ -3,6 +3,8 @@
      "docstatus": 0,
      "doctype": "Veterinario",
      "documentop": "28177249-F",
+     "nombrep": null,
+     "apellidop": null,
      "efectores": [
       {
        "efector": "IMUSA"
@@ -17,6 +19,8 @@
      "docstatus": 0,
      "doctype": "Veterinario",
      "documentop": "16306580-M",
+     "nombrep": null,
+     "apellidop": null,
      "efectores": [
       {
        "efector": "IMUSA"
@@ -31,6 +35,8 @@
      "docstatus": 0,
      "doctype": "Veterinario",
      "documentop": "28035246-F",
+     "nombrep": null,
+     "apellidop": null,
      "efectores": [
       {
        "efector": "IMUSA"
@@ -45,6 +51,8 @@
      "docstatus": 0,
      "doctype": "Veterinario",
      "documentop": "25007899-F",
+     "nombrep": null,
+     "apellidop": null,
      "efectores": [
       {
        "efector": "Vecinal 7 de Septiembre"
@@ -59,6 +67,8 @@
      "docstatus": 0,
      "doctype": "Veterinario",
      "documentop": "12788362-M",
+     "nombrep": null,
+     "apellidop": null,
      "efectores": [
       {
        "efector": "Vec. Parque Sur"
@@ -73,6 +83,8 @@
      "docstatus": 0,
      "doctype": "Veterinario",
      "documentop": "30002789-M",
+     "nombrep": null,
+     "apellidop": null,
      "efectores": [
       {
        "efector": "Vec. Parque Sur"
@@ -87,6 +99,8 @@
      "docstatus": 0,
      "doctype": "Veterinario",
      "documentop": "31115995-M",
+     "nombrep": null,
+     "apellidop": null,
      "efectores": [
       {
        "efector": "Luis Pasteur"
@@ -101,6 +115,8 @@
      "docstatus": 0,
      "doctype": "Veterinario",
      "documentop": "24063849-M",
+     "nombrep": null,
+     "apellidop": null,
      "efectores": [
       {
        "efector": "Centro Municipal de Distrito Oeste \"Felipe Moré\""
@@ -115,6 +131,8 @@
      "docstatus": 0,
      "doctype": "Veterinario",
      "documentop": "25959515-M",
+     "nombrep": null,
+     "apellidop": null,
      "efectores": [
       {
        "efector": "Centro Municipal de Distrito Oeste \"Felipe Moré\""
@@ -129,6 +147,8 @@
      "docstatus": 0,
      "doctype": "Veterinario",
      "documentop": "28915631-F",
+     "nombrep": null,
+     "apellidop": null,
      "efectores": [
       {
        "efector": "IMUSA"
@@ -143,6 +163,8 @@
      "docstatus": 0,
      "doctype": "Veterinario",
      "documentop": "36009786-M",
+     "nombrep": null,
+     "apellidop": null,
      "efectores": [
       {
        "efector": "CAAM"
@@ -157,6 +179,8 @@
      "docstatus": 0,
      "doctype": "Veterinario",
      "documentop": "33733444-F",
+     "nombrep": null,
+     "apellidop": null,
      "efectores": [
       {
        "efector": "IMUSA"
@@ -171,6 +195,8 @@
      "docstatus": 0,
      "doctype": "Veterinario",
      "documentop": "34520874-F",
+     "nombrep": null,
+     "apellidop": null,
      "efectores": [
       {
        "efector": "IMUSA"
@@ -185,6 +211,8 @@
      "docstatus": 0,
      "doctype": "Veterinario",
      "documentop": "18093781-M",
+     "nombrep": null,
+     "apellidop": null,
      "efectores": [
       {
        "efector": "IMUSA"
@@ -199,6 +227,8 @@
      "docstatus": 0,
      "doctype": "Veterinario",
      "documentop": "23184189-M",
+     "nombrep": null,
+     "apellidop": null,
      "efectores": [
       {
        "efector": "IMUSA"
@@ -213,6 +243,8 @@
      "docstatus": 0,
      "doctype": "Veterinario",
      "documentop": "24566788-M",
+     "nombrep": null,
+     "apellidop": null,
      "efectores": [
       {
        "efector": "IMUSA"
@@ -227,6 +259,8 @@
      "docstatus": 0,
      "doctype": "Veterinario",
      "documentop": "34468256-M",
+     "nombrep": null,
+     "apellidop": null,
      "efectores": [
       {
        "efector": "IMUSA"
@@ -241,6 +275,8 @@
      "docstatus": 0,
      "doctype": "Veterinario",
      "documentop": "33472958-F",
+     "nombrep": null,
+     "apellidop": null,
      "efectores": [
       {
        "efector": "IMUSA"
@@ -255,6 +291,8 @@
      "docstatus": 0,
      "doctype": "Veterinario",
      "documentop": "36657588-F",
+     "nombrep": null,
+     "apellidop": null,
      "efectores": [
       {
        "efector": "IMUSA"
@@ -269,6 +307,8 @@
      "docstatus": 0,
      "doctype": "Veterinario",
      "documentop": "23954185-M",
+     "nombrep": null,
+     "apellidop": null,
      "efectores": [
       {
        "efector": "IMUSA"
@@ -283,6 +323,8 @@
      "docstatus": 0,
      "doctype": "Veterinario",
      "documentop": "92918022-M",
+     "nombrep": null,
+     "apellidop": null,
      "efectores": [
       {
        "efector": "IMUSA"
