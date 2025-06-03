@@ -308,3 +308,49 @@ frappe.widget.widget_factory.number_card = function NumberCardWidgetOverride(opt
 
     return widget;
 };
+
+
+frappe.provide("frappe.breadcrumbs");
+
+frappe.breadcrumbs.set_workspace_breadcrumb = function(breadcrumbs) {
+
+    if (breadcrumbs.doctype === "User") {
+        breadcrumbs.workspace = "Usuarios"
+        return;
+    }
+    if (breadcrumbs.module === "IMUSA") {
+        if(breadcrumbs.doctype == "Animal"){
+            breadcrumbs.workspace = "Animales"
+            return
+        }
+        if(breadcrumbs.doctype == "Rescate"){
+            breadcrumbs.workspace = "Animales rescatados"
+            return
+        }
+        if(breadcrumbs.doctype == "Veterinario"){
+            breadcrumbs.workspace = "Veterinarios"
+            return
+        }
+    }
+
+    if (!breadcrumbs.workspace) {
+        this.set_workspace(breadcrumbs);
+    }
+
+    if (!breadcrumbs.workspace) {
+        return;
+    }
+
+    if (
+        breadcrumbs.module_info &&
+        (breadcrumbs.module_info.blocked ||
+            !frappe.visible_modules.includes(breadcrumbs.module_info.module))
+    ) {
+        return;
+    }
+
+    this.append_breadcrumb_element(
+        `/app/${frappe.router.slug(breadcrumbs.workspace)}`,
+        __(breadcrumbs.workspace)
+    );
+};
