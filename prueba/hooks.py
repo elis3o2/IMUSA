@@ -28,6 +28,12 @@ permission_query_conditions = {
 }
 
 
+doc_events = {
+    "Rescate": {
+        "after_save": "prueba.imusa.doctype.rescate.event.after_save"
+    }
+}
+
 
 after_migrate=["prueba.patches.make_creador.execute",
             "prueba.patches.workspace_u.execute",
