@@ -55,7 +55,11 @@ def override_DatabaseQuery():
 override_DatabaseQuery()
 
 
-
+fixtures = [
+    {
+        "doctype": "Custom DocPerm"
+    }
+]
 # Apps
 # ------------------
 

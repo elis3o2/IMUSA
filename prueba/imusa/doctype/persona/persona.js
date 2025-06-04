@@ -92,6 +92,9 @@ frappe.ui.form.on('Persona', {
                 frappe.validated = false;
             }
         }
+        
+
+
     },
     
     after_save: function(frm){
@@ -149,6 +152,8 @@ function load_persona(frm){
                         frm.set_value('apellido', respuesta.apellido);
                         frm.set_value('direccion', respuesta.domicilio);
                         frm.refresh_fields(['nombre', 'apellido', 'direccion']);
+                        frm.set_df_property('sexo', 'read_only', 1)
+                        frm.set_df_property('numero_documento', 'read_only', 1)
                     }
                 }
                 
