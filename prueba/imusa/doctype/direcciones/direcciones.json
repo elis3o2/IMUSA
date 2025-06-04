@@ -86,9 +86,10 @@
    "label": "Coordenada Y"
   }
  ],
+ "hide_toolbar": 1,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-04-08 11:38:54.727945",
+ "modified": "2025-06-04 11:45:33.132513",
  "modified_by": "Administrator",
  "module": "IMUSA",
  "name": "Direcciones",
@@ -108,6 +109,7 @@
    "write": 1
   }
  ],
+ "row_format": "Dynamic",
  "sort_field": "creation",
  "sort_order": "DESC",
  "states": []
