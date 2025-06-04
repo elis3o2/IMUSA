@@ -30,7 +30,7 @@ permission_query_conditions = {
 
 doc_events = {
     "Rescate": {
-        "after_save": "prueba.imusa.doctype.rescate.event.after_save"
+        "on_update": "prueba.imusa.doctype.rescate.event.on_update"
     }
 }
 

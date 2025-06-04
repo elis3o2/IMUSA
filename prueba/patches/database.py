@@ -18,8 +18,8 @@ class CustomDatabaseQuery(OriginalDatabaseQuery):
 		if(self.doctype == "Veterinario"):
 			args["conditions"] = args["conditions"].replace("`tabVeterinario`.`nombrep`", "`tabPersona_1`.`nombre`")
 			args["conditions"] = args["conditions"].replace("`tabVeterinario`.`apellidop`", "`tabPersona_1`.`apellido`")
-			args["order_by"] = args["order_by"].replace("`tabVeterinario`.`nombrep`", "`nombrep`")
-			args["order_by"] = args["order_by"].replace("`tabVeterinario`.`apellidop`", "`apellidop`")
+			args["order_by"] = args["order_by"].replace("`tabVeterinario`.nombrep", "`nombrep`")
+			args["order_by"] = args["order_by"].replace("`tabVeterinario`.apellidop", "`apellidop`")
 		
 
 		if args.conditions:
@@ -45,7 +45,6 @@ class CustomDatabaseQuery(OriginalDatabaseQuery):
 		{limit}
 		""".format(**args)
 		
-
 		return frappe.db.sql(
 			query,
 			as_dict=not self.as_list,

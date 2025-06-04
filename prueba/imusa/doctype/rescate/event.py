@@ -1,8 +1,7 @@
 import frappe
 
-def after_save(doc, method):
+def on_update(doc, method=None):
     if doc.adoptado == "Si":
-        doc = frappe.get_doc("Animal", doc.animal)
-        doc.documentop = doc.adoptante
-        doc.save(ignore_permissions=True)
-        frappe.log("SI")
+        docan = frappe.get_doc("Animal", doc.animal)
+        docan.documentop = doc.adoptante
+        docan.save(ignore_permissions=True)
