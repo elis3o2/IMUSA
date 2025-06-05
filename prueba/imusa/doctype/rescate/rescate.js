@@ -117,7 +117,7 @@ function permisos(frm){
         const today = frappe.datetime.get_today();
         const creation_date = frappe.datetime.str_to_obj(frm.doc.creation).toISOString().split('T')[0];
         
-        if (creation_date !== today && frm.doc.owner !== frappe.session.user){
+        if (creation_date !== today || frm.doc.owner !== frappe.session.user){
             frm.set_df_property('tipo_entrada', 'read_only', 1);
             frm.set_df_property('persona_ingresante', 'read_only', 1);
             if (frm.doc.adoptado == "Si"){

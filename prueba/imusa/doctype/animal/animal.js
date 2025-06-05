@@ -216,18 +216,21 @@ async function campos_automatiocos(frm){
             frappe.model.set_value(child_doc.doctype, child_doc.name, "dueno", frm.doc.documentop);
             frappe.model.set_value(child_doc.doctype, child_doc.name, "direccion", frm.doc.direccion);
 
-            try {
-                let usuario_actual = frappe.session.user;
-                let res = await frappe.db.get_value("User", usuario_actual, "persona");
+            let usuario_actual = frappe.session.user;
 
-                if (res.message && res.message.persona) {
-                    await frappe.model.set_value(child_doc.doctype, child_doc.name, "veterinario", res.message.persona);
-                } else {
-                    frappe.throw("No se pudo obtener el veterinario actual.");
+            frappe.call({
+                method: "frappe.client.get_value",
+                args: {
+                    doctype: "User",
+                    filters: { name: usuario_actual },
+                    fieldname: "persona"
+                },
+                callback: function (response) {
+                    if (response.message.persona) {
+                        frappe.model.set_value(child_doc.doctype, child_doc.name, "veterinario", response.message.persona);
+                    } 
                 }
-            } catch (error) {
-                frappe.throw("Error al obtener el veterinario: " + error.message);
-            }
+            })
 
             if (child_doc.tipo === "Castración") {
                 frm.set_value("estado_castracion", "Castrado");

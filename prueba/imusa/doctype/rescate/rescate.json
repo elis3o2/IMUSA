@@ -71,6 +71,7 @@
    "in_standard_filter": 1,
    "label": "Animal",
    "options": "Animal",
+   "read_only": 1,
    "reqd": 1
   },
   {
@@ -167,7 +168,7 @@
  "in_create": 1,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-05-27 09:46:05.546721",
+ "modified": "2025-06-05 08:08:50.760275",
  "modified_by": "Administrator",
  "module": "IMUSA",
  "name": "Rescate",
